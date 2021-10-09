@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #000814;
+  font-family: "Circular Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@font-face {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/circula/CircularStd-Medium.ttf") format("truetype");
+}
+
+html {
+  font-family: "Circular Std";
+}
