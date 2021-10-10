@@ -1,10 +1,9 @@
 <template>
   <div class="divide-y-2 md:divide-accent ">
-    <!-- <div> -->
-    <app-hero />
+    <AppNav />
+    <Nuxt />
+    <AppFooter />
   </div>
 </template>
 
-<script>
-export default {};
-</script>
+<style>
