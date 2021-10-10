@@ -1,6 +1,5 @@
 <template>
-  <div class="divide-y-2 md:divide-accent ">
-    <!-- <div> -->
+  <div class="overflow-hidden">
     <app-hero />
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
-  <div class="parent">
-    <div class="hero min-h-screen">
+  <div class="overflow-y-scroll">
+    <div class="hero md:min-h-screen w-full">
       <div class="hero-overlay conf"></div>
       <div class="text-center hero-content text-neutral-content">
         <div class="max-w-md">
@@ -20,13 +20,13 @@
       </div>
     </div>
 
-    <div class="mx-auto">
-      <div class="sm:text-center mt-16">
-        <p class="text-primary-content text-2xl text-base uppercase">
+    <div class="mx-auto mt-16 align-center ">
+      <div class="sm:text-center">
+        <!-- <p class="text-primary-content text-2xl text-base ">
           Featured Talks
-        </p>
+        </p> -->
         <div class="flex justify-center">
-          <div class="w-32 h-1 rounded-full bg-accent-focus inline-flex "></div>
+          <div class="w-32 h-1 rounded-full bg-accent-focus inline-flex"></div>
         </div>
       </div>
     </div>
