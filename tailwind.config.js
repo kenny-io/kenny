@@ -17,7 +17,8 @@ module.exports = {
           info: "#2094f3",
           success: "#009485",
           warning: "#ff9900",
-          error: "#ff5724"
+          error: "#ff5724",
+          btngradient: "bg-gradient-to-r from-pink-500 to-yellow-500"
         }
       }
     ],
@@ -27,7 +28,15 @@ module.exports = {
     rtl: false
   },
   theme: {
-    extend: {}
+    extend: {
+      // colors: {
+      //   red: "#f00",
+      //   blue: "#00f"
+      // },
+      // linearBorderGradients: theme => ({
+      //   colors: theme("colors")
+      // })
+    }
   },
   variants: {
     extend: {}

@@ -13,9 +13,7 @@
             event coming up and you think I could be a good fit, please contact
             me below.
           </p>
-          <button class="btn btn-primary text-accent-content">
-            Got a confernece?
-          </button>
+          <app-button :title="`Got a conference?`" />
         </div>
       </div>
     </div>
@@ -45,9 +43,7 @@
                   {{ talk.description }}
                 </p>
                 <div class="card-actions">
-                  <button class="btn btn-primary text-accent-content">
-                    Get the slides
-                  </button>
+                  <app-button :title="`Get the slides `" />
                 </div>
               </div>
             </div>
@@ -66,7 +62,9 @@
 </style>
 
 <script>
+import AppButton from "~/components/AppButton.vue";
 export default {
+  components: { AppButton },
   data() {
     return {
       talks: [

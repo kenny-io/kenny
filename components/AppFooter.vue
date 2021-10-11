@@ -25,11 +25,12 @@
               placeholder="username@site.com"
               class="w-full pr-16 input input-bordered"
             />
-            <button
+            <!-- <button
               class="absolute top-0 right-0 rounded-l-none btn btn-accent"
             >
               You win
-            </button>
+            </button> -->
+            <app-button class="absolute top-0 right-0 " :title="`You Win`" />
           </div>
         </div>
       </form>

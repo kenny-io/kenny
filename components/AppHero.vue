@@ -1,10 +1,21 @@
 <template>
   <div class="hero min-h-screen ">
     <div class="flex-col hero-content lg:flex-row-reverse">
-      <img
+      <!-- <img
         src="../static/kenny.png"
         class="max-w-sm rounded-lg shadow-2xl opacity-80 hover:opacity-100"
-      />
+      /> -->
+      <div class="relative group">
+        <div
+          class="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400 rounded-full "
+        ></div>
+        <div>
+          <img
+            src="../static/kenny.png"
+            class="max-w-sm rounded-full shadow-2xl opacity-95 hover:opacity-80 "
+          />
+        </div>
+      </div>
       <div>
         <h1
           class="sm:text-7xl text-5xl mb-8 font-black leading-20 text-primary-content"
