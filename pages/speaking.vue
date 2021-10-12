@@ -1,11 +1,11 @@
 <template>
-  <div class="parent">
-    <section class="overflow-y-scroll">
+  <div class="">
+    <section class=" overflow-y-scroll">
       <div class="hero md:min-h-screen w-full">
         <div class="hero-overlay conf"></div>
         <div class="text-center hero-content text-neutral-content">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold text-accent">
+            <h1 class="mb-5 text-5xl font-bold text-accent mt-5">
               Speaking...
             </h1>
             <p class="mb-5 text-primary-content opacity-70">
