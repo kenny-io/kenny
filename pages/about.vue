@@ -24,7 +24,7 @@
         <div>
           <img
             src="../static/kenny-2.png"
-            class="max-w-sm rounded-lg shadow-2xl opacity-95 hover:opacity-80 "
+            class="max-w-xs md:max-w-lg rounded-lg shadow-2xl opacity-95 hover:opacity-80 "
           />
         </div>
       </div>

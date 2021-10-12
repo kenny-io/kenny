@@ -8,7 +8,7 @@
         <div>
           <img
             src="../static/kenny.png"
-            class="max-w-sm rounded-full shadow-2xl opacity-95 hover:opacity-80 "
+            class="max-w-xs md:max-w-lg rounded-full shadow-2xl opacity-95 hover:opacity-80 "
           />
         </div>
       </div>
