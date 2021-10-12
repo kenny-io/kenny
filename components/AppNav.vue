@@ -1,5 +1,5 @@
 <template>
-  <nav class="text-primary-content">
+  <nav class="text-primary-content overflow-hidden">
     <div class="max-w-6xl mx-auto px-8 py-8">
       <div class="justify-between flex">
         <!-- Logo -->
