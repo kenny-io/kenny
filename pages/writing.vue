@@ -1,14 +1,12 @@
 <template>
-  <div class="parent">
+  <div class="">
     <section class="text-gray-300 body-font">
       <div
         class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
       >
         <div class="text-center lg:w-2/3 w-full">
-          <h1
-            class="title-font sm:text-4xl text-3xl mb-10 font-medium text-primary-content"
-          >
-            Blogging...
+          <h1 class="mb-5 text-5xl font-bold text-accent">
+            Blogging
           </h1>
           <p class="leading-relaxed">
             Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
@@ -58,11 +56,6 @@
                 />
               </div>
             </div>
-            <!-- <div class="avatar ">
-              <div class="rounded-box w-14 h-14">
-                <img src="../static/kenny.png" />
-              </div>
-            </div> -->
 
             <div class="author ml-5 mt-3 text-primary-content opacity-50">
               <h2>Ekene Eze</h2>
@@ -72,7 +65,7 @@
         </div>
       </div>
     </section>
-    <div class="posts mx-auto ">
+    <div class="container mx-auto">
       <div class="text-center lg:w-2/4 w-full">
         <h1
           class="title-font sm:text-4xl text-3xl mb-10 font-medium text-primary-content"

@@ -32,7 +32,7 @@
 export default {
   data() {
     return {
-      items: ["About", "Speaking", "Writing", "Projects", "Uses", "Learn"]
+      items: ["About", "Speaking", "Writing", "Projects", "Uses"]
     };
   }
 };

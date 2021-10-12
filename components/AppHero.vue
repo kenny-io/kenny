@@ -1,10 +1,6 @@
 <template>
   <div class="hero min-h-screen ">
     <div class="flex-col hero-content lg:flex-row-reverse">
-      <!-- <img
-        src="../static/kenny.png"
-        class="max-w-sm rounded-lg shadow-2xl opacity-80 hover:opacity-100"
-      /> -->
       <div class="relative group">
         <div
           class="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400 rounded-full "
@@ -48,9 +44,8 @@
             >Polywork
           </a>
           <a
-            class="btn text-primary hover:bg-accent hover:text-secondary"
+            class="btn text-primary hover:bg-accent hover:text-secondary mt-2"
             href="https://github.com/kenny_io"
-            mt-2
             >Github
           </a>
         </div>

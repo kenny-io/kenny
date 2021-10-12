@@ -1,8 +1,5 @@
 <template>
   <footer class="text-primary-content h-90  body-font ">
-    <!-- <div class="flex justify-center">
-      <div class="w-4/5 h-1 rounded-full bg-yellow-500 inline-flex "></div>
-    </div> -->
     <div class="container px-5 py-8 mx-auto text-center">
       <h1 class="flex text-lg text-3xl justify-center mb-10">
         Get new contents in your inbox
@@ -23,19 +20,15 @@
             <input
               type="text"
               placeholder="username@site.com"
-              class="w-full pr-16 input input-bordered"
+              class="w-4/5 pr-16 input input-bordered"
             />
-            <!-- <button
-              class="absolute top-0 right-0 rounded-l-none btn btn-accent"
-            >
-              You win
-            </button> -->
-            <app-button class="absolute top-0 right-0 " :title="`You Win`" />
+
+            <app-button class=" w-1/5 absolute top-0 right-0 " :title="`Go`" />
           </div>
         </div>
       </form>
 
-      <footer class="p-4 footer footer-center  mt-10 text-lg">
+      <div class="p-4 footer footer-center  mt-10 text-lg">
         <div>
           <div class="flex justify-center">
             <div class="w-32 h-1 rounded-full bg-yellow-500 inline-flex "></div>
@@ -46,7 +39,7 @@
             <a href="https://www.netlify.com"> Netlify</a>
           </p>
         </div>
-      </footer>
+      </div>
     </div>
   </footer>
 </template>
