@@ -44,7 +44,7 @@
                   {{ talk.description }}
                 </p>
                 <div class="card-actions">
-                  <app-button :title="`View Talk`" />
+                  <app-button :title="`Watch Talk`" />
                 </div>
               </div>
             </div>

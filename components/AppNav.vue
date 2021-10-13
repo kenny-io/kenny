@@ -34,7 +34,9 @@
 
         <!-- Secondary nav -->
         <div>
-          <app-button :title="`buy me coffee`" class="hidden md:flex" />
+          <a href="https://www.buymeacoffee.com/ekene">
+            <app-button :title="`buy me a coffee`" class="hidden md:flex"
+          /></a>
 
           <!-- mobile nav -->
           <div
