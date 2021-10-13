@@ -68,6 +68,9 @@
     <!-- show articles on this site and elsewhere -->
     <section class="block md:flex container justify-between mx-auto text-white">
       <div>
+        <h1 class="flex text-lg text-3xl justify-center mb-10">
+          On this site
+        </h1>
         <div class="grid flex-grow place-items-center ">
           <div
             v-for="article in articles"
@@ -88,6 +91,9 @@
       </div>
 
       <div>
+        <h1 class="flex text-lg text-3xl justify-center mb-10">
+          Elsewhere
+        </h1>
         <div class="container px-5 py-10">
           <div
             v-for="article in articles"

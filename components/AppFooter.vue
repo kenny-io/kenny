@@ -2,7 +2,7 @@
   <footer class="text-primary-content h-90  body-font ">
     <div class="container px-5 py-8 mx-auto text-center">
       <h1 class="flex text-lg text-3xl justify-center mb-10">
-        Get new content in your inbox
+        Get new contents in your inbox
       </h1>
       <p
         class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-primary-content opacity-50"
@@ -14,15 +14,15 @@
         Otherwise, keep scrolling, no hard feelings :).
       </p>
 
-      <form class="flex justify-center mt-10">
+      <form action="/subscribe" class="flex justify-center mt-10">
         <div class="form-control w-80">
           <div class="relative">
             <input
               type="text"
               placeholder="username@site.com"
               class="w-4/5 pr-16 input input-bordered"
+              name="email"
             />
-
             <app-button class=" w-1/5 absolute top-0 right-0 " :title="`Go`" />
           </div>
         </div>
