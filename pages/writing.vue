@@ -65,16 +65,10 @@
         </div>
       </div>
     </section>
-    <div class="container mx-auto">
-      <div class="text-center lg:w-2/4 w-full">
-        <h1
-          class="title-font sm:text-4xl text-3xl mb-10 font-medium text-primary-content"
-        >
-          On this site...
-        </h1>
-      </div>
-      <div class="flex flex-row w-full">
-        <div class="grid flex-grow h-auto place-items-center w-1/2">
+    <!-- show articles on this site and elsewhere -->
+    <section class="block md:flex container justify-between mx-auto text-white">
+      <div>
+        <div class="grid flex-grow place-items-center ">
           <div
             v-for="article in articles"
             :key="article"
@@ -91,72 +85,42 @@
             </div>
           </div>
         </div>
-        <!-- <div class="divider divider-vertical">OR</div> -->
-        <div
-          class="grid flex-grow h-auto card rounded-box place-items-center w-1/2"
-        >
-          <div class="text-center lg:w-2/4 w-full">
-            <h1
-              class="title-font sm:text-4xl text-3xl mb-10 font-medium text-primary-content"
+      </div>
+
+      <div>
+        <div class="container px-5 py-10">
+          <div
+            v-for="article in articles"
+            :key="article"
+            class="flex relative pt-10 pb-10 sm:items-center md:w-2/3 mx-auto"
+          >
+            <div
+              class="h-full w-6 absolute inset-0 flex items-center justify-center"
             >
-              Elsewhere...
-            </h1>
-          </div>
-          <section class="body-font">
-            <div class="container px-5 py-24 mx-auto flex flex-wrap">
-              <div
-                v-for="article in articles"
-                :key="article"
-                class="flex relative pt-10 pb-10 sm:items-center md:w-2/3 mx-auto"
-              >
-                <div
-                  class="h-full w-6 absolute inset-0 flex items-center justify-center"
-                >
-                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                </div>
-                <div
-                  class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-primary-focus text-black relative z-10 title-font font-medium text-sm"
-                >
-                  &#10004;
-                </div>
-                <div
-                  class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
-                >
-                  <!-- <div
-                    class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
-                  >
-                     <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-12 h-12"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
-                      ></path>
-                    </svg>
-                  </div> -->
-                  <div
-                    class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-primary-content"
-                  >
-                    <h2 class="font-medium title-font mb-1 text-xl ">
-                      {{ article.title }}
-                    </h2>
-                    <p class="leading-relaxed opacity-50">
-                      {{ article.description }}
-                    </p>
-                    <button class="text-accent mt-3">Read More &rarr;</button>
-                  </div>
-                </div>
+              <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            </div>
+            <div
+              class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-primary-focus text-black relative z-10 title-font font-medium text-sm"
+            >
+              &#10004;
+            </div>
+            <div
+              class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+            >
+              <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-primary-content">
+                <h2 class="font-medium title-font mb-1 text-xl ">
+                  {{ article.title }}
+                </h2>
+                <p class="leading-relaxed opacity-50">
+                  {{ article.description }}
+                </p>
+                <button class="text-accent mt-3">Read More &rarr;</button>
               </div>
             </div>
-          </section>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 <script>

@@ -19,9 +19,9 @@
           Hey,<span class="text-accent"> I'm Kenny!</span>
         </h1>
         <p
-          class="mb-10 text-primary-content opacity-50 text-base leading-relaxed  "
+          class="mb-10 mt-3 text-primary-content opacity-50 text-base leading-relaxed  "
         >
-          I do Developer Experience at Netlify and I love working on projects
+          I do developer experience at Netlify and I love working on projects
           that help other software engineers. Passionate about sharing with the
           community and supporting the next generation of developers, I write
           about web development concepts and best practices, create courses,
