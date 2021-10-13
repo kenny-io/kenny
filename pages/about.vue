@@ -17,12 +17,16 @@
           conferences.
         </p>
       </div>
-
-      <div>
-        <img
-          src="../static/kenny-2.png"
-          class="max-w-sm rounded-lg shadow-2xl opacity-80 hover:opacity-100"
-        />
+      <div class="relative group">
+        <div
+          class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg "
+        ></div>
+        <div>
+          <img
+            src="../static/kenny-2.png"
+            class="max-w-xs md:max-w-lg rounded-lg shadow-2xl opacity-95 hover:opacity-80 "
+          />
+        </div>
       </div>
     </div>
   </div>
