@@ -36,5 +36,13 @@ export default {
   modules: ["@nuxt/content"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {},
+
+  content: {
+    markdown: {
+      prism: {
+        theme: "prism-themes/themes/prism-night-owl.css"
+      }
+    }
+  }
 };

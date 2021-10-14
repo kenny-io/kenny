@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "title": "Top 6 things you can do with Netlify Dev in 2021 Netlify Dev in 2021",
+      "description": " Learn how to make the most of Netlify Dev with this top 6 tips for faster development. Learn how to make the most of Netlify Dev with this top 6 tips for faster development. Learn how to make the most of Netlify Dev with this top 6 tips for faster development.",
+      "date": "2021-10-16",
+      "url": "https://www.netlify.com/blog/2021/08/16/top-6-things-you-can-do-with-netlify-dev-in-2021/",
+      "category": "netlify"
+    },
+    {
+      "title": "Top 4 things you can do with Netlify Dev in 2021",
+      "description": "Learn how to make the most of Netlify Dev with this top 6 tips for faster development.",
+      "date": "2021-08-16",
+      "url": "https://www.netlify.com/blog/2021/08/16/top-6-things-you-can-do-with-netlify-dev-in-2021/",
+      "category": "netlify"
+    },
+    {
+      "title": "TopLearn how to make the most of Netlify Dev with this top 6 tips for faster development.",
+      "description": "Learn how to make the most of Netlify Dev with this top 6 tips for faster development. Learn how to make the most of Netlify Dev with this top 6 tips for faster development.",
+      "date": "2021-09-16",
+      "url": "https://www.netlify.com/blog/2021/08/16/top-6-things-you-can-do-with-netlify-dev-in-2021/",
+      "category": "netlify"
+    },
+
+    {
+      "title": "Top 3 things you can do with Netlify Dev in 2021",
+      "description": "Learn how to make the most of Netlify Dev with this top 6 tips for faster development.",
+      "date": "2021-07-16",
+      "url": "https://www.netlify.com/blog/2021/08/16/top-6-things-you-can-do-with-netlify-dev-in-2021/",
+      "category": "netlify"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  background-color: #000814;
+  /* background-color: #000814; */
   font-family: "Circular Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @font-face {

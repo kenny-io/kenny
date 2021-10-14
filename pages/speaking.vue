@@ -5,7 +5,7 @@
         <div class="hero-overlay conf"></div>
         <div class="text-center hero-content text-neutral-content">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold text-accent mt-5">
+            <h1 class="mb-5 text-5xl font-bold text-accent-focus mt-5">
               Speaking...
             </h1>
             <p class="mb-5 text-primary-content opacity-70">
@@ -71,7 +71,7 @@
 .conf {
   background-image: url("../static/kenny-speaking.jpg");
   background-size: cover;
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 </style>
 
@@ -86,7 +86,7 @@ export default {
   async fetch() {
     this.talks = await this.$content("talks")
       .only(["title", "description", "conference"])
-      .sortBy("date")
+      .sortBy("date", "desc")
       .search(this.query)
       .fetch();
   },

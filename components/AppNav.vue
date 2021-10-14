@@ -1,5 +1,5 @@
 <template>
-  <nav class="text-primary-content overflow-hidden">
+  <nav class="text-primary-content overflow-hidden bg-background">
     <div class="max-w-6xl mx-auto px-8 py-8">
       <div class="justify-between flex">
         <!-- Logo -->
@@ -94,7 +94,7 @@
 export default {
   data() {
     return {
-      items: ["About", "Speaking", "Writing", "Projects", "Uses"],
+      items: ["About", "Speaking", "Blogging", "Projects", "Uses"],
       showMobileDrawer: false
     };
   },
