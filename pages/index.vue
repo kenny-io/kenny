@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden">
+  <div class="dark overflow-hidden">
     <app-hero />
   </div>
 </template>

@@ -8,7 +8,7 @@
         <div>
           <img
             src="../static/kenny.png"
-            class="max-w-xs md:max-w-lg rounded-full shadow-2xl opacity-95 hover:opacity-80 "
+            class="max-w-xs md:max-w-lg rounded-full shadow-2xl opacity-95 hover:opacity-80"
           />
         </div>
       </div>
@@ -19,7 +19,7 @@
           Hey,<span class="text-accent"> I'm Kenny!</span>
         </h1>
         <p
-          class="mb-10 mt-3 text-primary-content opacity-50 text-base leading-relaxed  "
+          class="mb-10 mt-3 text-primary-content opacity-70 text-base leading-relaxed  "
         >
           I do developer experience at Netlify and I love working on projects
           that help other software engineers. Passionate about sharing with the

@@ -2,10 +2,10 @@
   <footer class="text-primary-content h-90  body-font ">
     <div class="container px-5 py-8 mx-auto text-center">
       <h1 class="flex text-lg text-3xl justify-center mb-10">
-        Get new contents in your inbox
+        Get new content in your inbox
       </h1>
       <p
-        class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-primary-content opacity-50"
+        class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-primary-content opacity-70"
       >
         I spend most of my time making contents like blog posts, video tutorials
         and courses, speaking at conference or delivering workshops. If you're

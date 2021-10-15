@@ -1,15 +1,28 @@
 module.exports = {
   purge: [],
-  //   darkMode: "class", // or 'media' or 'class'
+  // darkMode: "class", // or 'media' or 'class'
   daisyui: {
     styled: true,
     themes: [
+      "kennydark",
+      {
+        kennylight: {
+          primary: "#FEA920",
+          "primary-focus": "#fa9604",
+          "primary-content": "#000000",
+          background: "#fff",
+          "secondary-content": "#ffffff",
+          accent: "#FEA920",
+          "accent-focus": "#fa9604",
+          "accent-content": "#000"
+        }
+      },
       {
         kennydark: {
           primary: "#FEA920",
           "primary-focus": "#fa9604",
           "primary-content": "#ffffff",
-          bg: "#000814",
+          background: "#000814",
           "secondary-content": "#ffffff",
           accent: "#FEA920",
           "accent-focus": "#fa9604",
@@ -17,8 +30,7 @@ module.exports = {
           info: "#2094f3",
           success: "#009485",
           warning: "#ff9900",
-          error: "#ff5724",
-          btngradient: "bg-gradient-to-r from-pink-500 to-yellow-500"
+          error: "#ff5724"
         }
       }
     ],
@@ -41,5 +53,5 @@ module.exports = {
   variants: {
     extend: {}
   },
-  plugins: [require("daisyui")]
+  plugins: [require("daisyui"), require("@tailwindcss/typography")]
 };

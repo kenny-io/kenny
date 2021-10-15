@@ -1,5 +1,5 @@
 <template>
-  <nav class="text-primary-content overflow-hidden">
+  <nav class="text-primary-content overflow-hidden bg-background">
     <div class="max-w-6xl mx-auto px-8 py-8">
       <div class="justify-between flex">
         <!-- Logo -->
@@ -17,7 +17,7 @@
             <div class="group" v-for="item in items" :key="item">
               <nuxt-link
                 :to="`/${item}`"
-                class="btn-sm leading-6 font-normal text-base leading-6 cursor-pointer"
+                class="btn-sm hover:opacity-70 opacity-100 leading-6 font-normal text-base leading-6 cursor-pointer"
               >
                 {{ item }}
               </nuxt-link>
@@ -94,7 +94,7 @@
 export default {
   data() {
     return {
-      items: ["About", "Speaking", "Writing", "Projects", "Uses"],
+      items: ["About", "Speaking", "Blogging", "Projects", "Uses"],
       showMobileDrawer: false
     };
   },
