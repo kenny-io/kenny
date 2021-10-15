@@ -9,7 +9,7 @@
             Blogging
           </h1>
           <p class="leading-relaxed opacity-70">
-            Writing is a huge part of my content delivery approach. It is the
+            Writing is a huge part of my content delivery approach. It's the
             fastest way I know to quickly share the things I've learnt in the
             course of my work and other activities. I have mostly written
             content that are published on other platforms, but I've also decided
@@ -20,29 +20,28 @@
     </section>
     <section class="text-primary-content">
       <div
+        v-for="item in featuredPost"
+        :key="item.title"
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <img
             class="object-cover object-center rounded"
             alt="hero"
-            src="../../static/post-thumbnail.png"
+            :src="item.thumbnail"
           />
         </div>
         <div
           class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center text-primary-content"
         >
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium ">
-            Build a Nuxt App with Tailwind CSS and Sanity
+            {{ item.title }}
           </h1>
           <span class="mb-5">
             <div class="badge badge-accent badge-outline">featured</div>
           </span>
           <p class="mb-3 leading-relaxed opacity-70">
-            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
-            hexagon try-hard chambray.
+            {{ item.description }}
           </p>
           <button class="text-accent mb-5">Read more &rarr;</button>
 
@@ -60,11 +59,24 @@
 
             <div class="author ml-5 mt-3 opacity-70">
               <h2>Ekene Eze</h2>
-              <p>Sep 20, 2021</p>
+              <p>{{ formatDate(item.date) }}</p>
             </div>
           </div>
         </div>
       </div>
+      <form class="flex justify-center mb-10">
+        <div class=" ">
+          <div class="relative">
+            <input
+              type="search"
+              @input="$fetch"
+              v-model="query"
+              placeholder="Search Posts"
+              class=" pr-16 input input-bordered border-2 border-gray-300 text-gray-300 w-full"
+            />
+          </div>
+        </div>
+      </form>
     </section>
     <!-- show articles on this site and elsewhere -->
     <section
@@ -85,8 +97,8 @@
               <p class="opacity-70">
                 {{ shortDescription(article.description) }}
               </p>
+              <p class="mt-3 opacity-70">{{ formatDate(article.date) }}</p>
               <div class="card-actions">
-                <!-- <button class="text-accent mb-5">Read More &rarr;</button> -->
                 <nuxt-link
                   class="text-accent mb-5"
                   :to="`/blogging/${article.slug}`"
@@ -105,10 +117,12 @@
         </h1>
         <div class="container px-5 py-10">
           <!-- <pre>{{ data.talks }}</pre> -->
-          <div
-            v-for="talk in externalPosts.posts"
-            :key="talk.title"
+          <a
+            v-for="post in externalPosts"
+            :key="post.title"
             class="flex relative pt-10 pb-10 sm:items-center md:w-2/3 mx-auto"
+            :href="post.url"
+            target="blank"
           >
             <div
               class="h-full w-6 absolute inset-0 flex items-center justify-center"
@@ -125,16 +139,15 @@
             >
               <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 text-primary-content">
                 <h2 class="font-medium title-font mb-1 text-xl ">
-                  {{ talk.title }}
+                  {{ post.title }}
                 </h2>
                 <p class="leading-relaxed opacity-70">
-                  {{ talk.description }}
+                  {{ post.description }}
                 </p>
-                <p class="mt-3">{{ formatDate(talk.date) }}</p>
-                <button class="text-accent mt-3">Read More &rarr;</button>
+                <p class="mt-3 opacity-70">{{ formatDate(post.date) }}</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>
@@ -143,14 +156,27 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      externalPosts: "",
+      nativePosts: "",
+      query: ""
+    };
   },
-
-  async asyncData({ $content }) {
-    const externalPosts = await $content("external-posts").fetch();
-
-    const nativePosts = await $content("blog").fetch();
-    return { externalPosts, nativePosts };
+  async fetch() {
+    this.nativePosts = await this.$content("blog")
+      .sortBy("date", "desc")
+      .search(this.query)
+      .fetch();
+    this.externalPosts = await this.$content("externals")
+      .sortBy("date", "desc")
+      .search(this.query)
+      .fetch();
+  },
+  computed: {
+    featuredPost() {
+      let post = this.nativePosts.filter(item => item.featured === true);
+      return post;
+    }
   },
 
   methods: {

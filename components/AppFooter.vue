@@ -33,7 +33,7 @@
           <div class="flex justify-center">
             <div class="w-32 h-1 rounded-full bg-yellow-500 inline-flex "></div>
           </div>
-          <p class="opacity-50">
+          <p class="opacity-70">
             Ekene Eze © 2021 - Made with
             <a href="https://www.nuxtjs.org">Nuxtjs</a> and
             <a href="https://www.netlify.com"> Netlify</a>
