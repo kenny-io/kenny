@@ -29,6 +29,8 @@
             class="object-cover object-center rounded"
             alt="post cover image"
             src="/images/gatsby-v4-on-netlify.png"
+            width="550"
+            height="450"
           />
           <!-- <pre class="text-white">{{ item.image }}</pre> -->
         </div>
@@ -55,6 +57,7 @@
               >
                 <nuxt-img
                   src="/avatar.png"
+                  format="webp"
                   class=" w-14 h-14 rounded-full"
                   width="50"
                   height="50"

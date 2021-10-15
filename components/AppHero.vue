@@ -8,6 +8,7 @@
         <div>
           <nuxt-img
             src="/kenny.png"
+            format="webp"
             class="max-w-xs md:max-w-lg rounded-full shadow-2xl opacity-95 hover:opacity-80"
             sizes="sm:100vw md:100vw lg:800px"
             alt="kenny's headshot"
