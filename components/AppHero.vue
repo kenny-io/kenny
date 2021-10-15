@@ -6,9 +6,11 @@
           class="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400 rounded-full "
         ></div>
         <div>
-          <img
-            src="../static/kenny.png"
+          <nuxt-img
+            src="/kenny.png"
             class="max-w-xs md:max-w-lg rounded-full shadow-2xl opacity-95 hover:opacity-80"
+            sizes="sm:100vw md:100vw lg:800px"
+            alt="kenny's headshot"
           />
         </div>
       </div>

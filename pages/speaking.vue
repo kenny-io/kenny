@@ -30,6 +30,7 @@
         </div>
       </div>
     </div>
+    <!-- // show form -->
     <form class="flex justify-center mt-10">
       <div class="form-control w-90">
         <div class="relative">
@@ -48,8 +49,13 @@
         <div class="flex flex-wrap -m-4">
           <div v-for="talk in talks" :key="talk.title" class="p-4 md:w-1/3">
             <div class="card shadow-xl overflow-hidden w-full max-w-lg ">
-              <figure class=" px-10 pt-10">
-                <img class="rounded-xl" src="../static/kenny-3.jpg" />
+              <figure class="px-10 pt-10">
+                <nuxt-img
+                  alt="picture of kenny speaking at a conference"
+                  class="rounded-xl"
+                  src="/kenny-3.jpg"
+                  sizes="sm:100vw md:50vw lg:400px"
+                />
               </figure>
               <div class="justify-end card-body text-primary-content">
                 <h2 class="card-title ">{{ talk.conference }}</h2>

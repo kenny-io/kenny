@@ -14,10 +14,12 @@
     "@tailwindcss/typography": "^0.4.1",
     "core-js": "^3.15.1",
     "daisyui": "^1.14.2",
+    "highlight.js": "^11.2.0",
     "nuxt": "^2.15.7",
     "prism-themes": "^1.9.0"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.6.0",
     "@nuxtjs/tailwindcss": "^4.2.0",
     "postcss": "^8.3.5"
   }

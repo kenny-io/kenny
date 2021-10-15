@@ -5,6 +5,8 @@ authors:
   - Ekene Eze
 date: 2021-01-29
 lastmod: 2021-01-29
+featured: false
+image: "../../content/blog/images/deep-dive.png"
 topics:
   - tutorials
 tags:
@@ -24,8 +26,6 @@ seo:
 ---
 
 <!-- ![Vue 3 watch API deep dive](https://res.cloudinary.com/kennyy/image/upload/q_auto/v1611869243/watch-api-deep-dive.png) -->
-
-## Introduction to the Watch API
 
 The watch API is part of the larger Vue Composition APIs. It takes a data source and a callback function that executes when the provided data changes.
 
