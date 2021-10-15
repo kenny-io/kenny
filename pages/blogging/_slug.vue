@@ -1,5 +1,5 @@
 <template>
-  <section class="dark:bg-gray-900 body-font ">
+  <section data-theme="kennylight" class="">
     <div class="container px-5 py-24 mx-auto">
       <div
         class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto"

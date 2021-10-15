@@ -4,7 +4,7 @@ module.exports = {
   daisyui: {
     styled: true,
     themes: [
-      "kennylight",
+      "kennydark",
       {
         kennylight: {
           primary: "#FEA920",
