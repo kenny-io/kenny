@@ -34,21 +34,25 @@
         </p>
         <div role="list" class="group">
           <a
+            role="listitem"
             class="btn text-primary hover:bg-accent hover:text-secondary"
             href="https://twitter.com/kenny_io"
             >Twitter
           </a>
           <a
+            role="listitem"
             class="btn text-primary hover:bg-accent hover:text-secondary"
             href="https://www.youtube.com/c/EkeneEze"
             >YouTube
           </a>
           <a
+            role="listitem"
             class="btn text-primary hover:bg-accent hover:text-secondary"
             href="https://polywork.com/kenny_io"
             >Polywork
           </a>
           <a
+            role="listitem"
             class="btn text-primary hover:bg-accent hover:text-secondary mt-2"
             href="https://github.com/kenny_io"
             >Github
