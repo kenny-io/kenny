@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-    <section class="">
+  <div role="main">
+    <section>
       <div class="hero md:min-h-screen w-full">
         <div class="hero-overlay conf"></div>
         <div class="text-center hero-content">
@@ -20,7 +20,6 @@
             >
               Got a conference ?
             </a>
-            <!-- <app-button :title="`Got a conference?`" /> -->
           </div>
         </div>
       </div>
@@ -32,7 +31,7 @@
         </div>
       </div>
     </div>
-    <!-- // show form -->
+    <!-- // show search form -->
     <form class="flex justify-center mt-10">
       <div class="form-control w-90">
         <div class="relative">
@@ -58,6 +57,8 @@
                   format="webp"
                   src="/kenny-3.jpg"
                   sizes="sm:100vw md:50vw lg:400px"
+                  width="100"
+                  height="150"
                 />
               </figure>
               <div class="justify-end card-body text-primary-content">
@@ -86,6 +87,16 @@
 
 <script>
 export default {
+  head: {
+    title: "Speaking page",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: 'A list of Ekene Eze"s Conference talks'
+      }
+    ]
+  },
   data() {
     return {
       talks: "",

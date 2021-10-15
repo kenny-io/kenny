@@ -62,9 +62,18 @@
   </div>
 </template>
 <script>
-import AppButton from "~/components/AppButton.vue";
 export default {
-  components: { AppButton },
+  head: {
+    title: "Project page",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          'Ekene Eze"s popular projects and demos on Github mostly hosted on Netlify'
+      }
+    ]
+  },
   data() {
     return {
       projects: [

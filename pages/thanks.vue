@@ -11,3 +11,18 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  head: {
+    title: "Thanks page",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: "Thanks for subscribing to my newsletter"
+      }
+    ]
+  }
+};
+</script>

@@ -5,5 +5,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    title: "Ekene Eze website",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: "Get to know about Ekene Eze from this website"
+      }
+    ]
+  }
+};
 </script>

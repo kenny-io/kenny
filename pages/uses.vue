@@ -53,3 +53,18 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  head: {
+    title: "Uses page",
+    meta: [
+      {
+        hid: "description",
+        name: "uses",
+        content: "A list of tools I use daily for work and productivity"
+      }
+    ]
+  }
+};
+</script>
