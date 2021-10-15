@@ -2,10 +2,14 @@
   <nav class="text-primary-content overflow-hidden bg-background">
     <div class="max-w-6xl mx-auto px-8 py-8">
       <div class="justify-between flex">
-        <!-- Logo -->
+        <!-- use SVG Logo from assets directory -->
         <div>
-          <nuxt-link to="/" class="flex">
-            <Logo />
+          <nuxt-link
+            tag="img"
+            :src="require('~/assets/logo.svg')"
+            to="/"
+            class="flex cursor-pointer"
+          >
           </nuxt-link>
         </div>
 
@@ -33,10 +37,14 @@
         </div>
 
         <!-- Secondary nav -->
-        <div>
-          <a href="https://www.buymeacoffee.com/ekene">
-            <app-button :title="`buy me a coffee`" class="hidden md:flex"
-          /></a>
+        <div role="button" aria-pressed="false">
+          <a
+            class="btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
+            href="https://www.buymeacoffee.com/ekene"
+          >
+            Buy me a coffee
+            <!-- <app-button :title="`buy me a coffee`" class="hidden md:flex" -->
+          </a>
 
           <!-- mobile nav -->
           <div

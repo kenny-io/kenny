@@ -2,6 +2,7 @@
   <section data-theme="kennylight">
     <div class="container px-5 py-24 mx-auto">
       <div
+        role="article"
         class="lg:w-2/3 sm:flex-row sm:items-center items-start mx-auto overflow-auto"
       >
         <p class="mb-10 text-2xl">{{ formatDate(post.date) }}</p>

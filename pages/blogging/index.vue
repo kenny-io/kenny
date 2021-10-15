@@ -163,6 +163,17 @@
 </template>
 <script>
 export default {
+  head: {
+    title: "Ekene Eze Blog",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          'Read Ekene"s blog posts about web development with modern tools and technologies'
+      }
+    ]
+  },
   data() {
     return {
       externalPosts: "",

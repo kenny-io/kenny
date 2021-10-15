@@ -16,7 +16,7 @@
           sit necessitatibus veritatis sed molestiae voluptates incidunt iure
           sapiente.
         </p>
-        <div class="card-actions">
+        <div role="button" aria-pressed="false" class="card-actions">
           <button class="btn glass rounded-full">Get Started</button>
         </div>
       </div>

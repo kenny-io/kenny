@@ -46,8 +46,6 @@
             class="max-w-xs md:max-w-lg rounded-lg shadow-2xl opacity-95 hover:opacity-80 "
             sizes="sm:max-w-xs md:100vw lg:800px"
             alt="kenny image posing for a headshot"
-            width="550"
-            height="450"
           />
         </div>
       </div>
@@ -57,6 +55,16 @@
 
 <script>
 export default {
+  head: {
+    title: "About Ekene Eze",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: "All you need to know about Ekene"
+      }
+    ]
+  },
   data() {
     return {
       techs: ["ES6", "Jamstack", "Vue", "Nuxt", "Serverless", "Supabase"]
