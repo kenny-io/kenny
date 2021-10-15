@@ -29,6 +29,8 @@
             class="object-cover object-center rounded"
             alt="post cover image"
             src="/images/gatsby-v4-on-netlify.png"
+            width="550"
+            height="450"
           />
           <!-- <pre class="text-white">{{ item.image }}</pre> -->
         </div>
