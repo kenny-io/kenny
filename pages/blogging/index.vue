@@ -55,6 +55,7 @@
               >
                 <nuxt-img
                   src="/avatar.png"
+                  format="webp"
                   class=" w-14 h-14 rounded-full"
                   width="50"
                   height="50"

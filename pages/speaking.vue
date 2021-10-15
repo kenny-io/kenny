@@ -16,9 +16,11 @@
             </p>
             <a
               href="mailto:ekeneeze3@gmail.com?bcc=ekene@netlify.com&subject=Come%20Speak%20at%20My%20Conference!&body=Hello%20Ekene,"
+              class="btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
             >
-              <app-button :title="`Got a conference?`" />
+              Got a conference ?
             </a>
+            <!-- <app-button :title="`Got a conference?`" /> -->
           </div>
         </div>
       </div>
@@ -53,6 +55,7 @@
                 <nuxt-img
                   alt="picture of kenny speaking at a conference"
                   class="rounded-xl"
+                  format="webp"
                   src="/kenny-3.jpg"
                   sizes="sm:100vw md:50vw lg:400px"
                 />
