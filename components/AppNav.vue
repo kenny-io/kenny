@@ -6,6 +6,9 @@
         <div>
           <nuxt-link
             tag="img"
+            width="135"
+            height="42"
+            alt="Kenny logo"
             :src="require('~/assets/logo.svg')"
             to="/"
             class="flex cursor-pointer"
@@ -37,13 +40,12 @@
         </div>
 
         <!-- Secondary nav -->
-        <div role="button" aria-pressed="false">
+        <div>
           <a
-            class="btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
+            class="hidden md:flex btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
             href="https://www.buymeacoffee.com/ekene"
           >
             Buy me a coffee
-            <!-- <app-button :title="`buy me a coffee`" class="hidden md:flex" -->
           </a>
 
           <!-- mobile nav -->
@@ -80,10 +82,7 @@
         </div>
       </div>
     </div>
-    <div
-      v-if="showMobileDrawer"
-      class="md:hidden rounded-lg drawer drawer-end h-auto"
-    >
+    <div v-if="showMobileDrawer" class="md:hidden rounded-lg drawer-end h-auto">
       <div class="drawer-side">
         <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
           <li class="group" v-for="item in items" :key="item">

@@ -1,5 +1,5 @@
 <template>
-  <div class="hero min-h-screen ">
+  <div role="main" class="hero min-h-screen ">
     <div class="flex-col hero-content items-center lg:flex-row-reverse">
       <div class="relative group">
         <div
@@ -12,6 +12,8 @@
             class="max-w-xs md:max-w-lg rounded-full shadow-2xl opacity-95 hover:opacity-80"
             sizes="sm:100vw md:100vw lg:800px"
             alt="kenny's headshot"
+            width="350"
+            height="450"
           />
         </div>
       </div>
@@ -30,7 +32,7 @@
           about web development concepts and best practices, create courses,
           present workshops and speak at conferences.
         </p>
-        <div class="group">
+        <div role="list" class="group">
           <a
             class="btn text-primary hover:bg-accent hover:text-secondary"
             href="https://twitter.com/kenny_io"
