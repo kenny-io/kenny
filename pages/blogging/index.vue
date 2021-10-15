@@ -25,11 +25,12 @@
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-          <img
+          <nuxt-img
             class="object-cover object-center rounded"
-            alt="hero"
-            :src="item.thumbnail"
+            alt="post cover image"
+            src="/images/gatsby-v4-on-netlify.png"
           />
+          <!-- <pre class="text-white">{{ item.image }}</pre> -->
         </div>
         <div
           class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center text-primary-content"
@@ -43,16 +44,20 @@
           <p class="mb-3 leading-relaxed opacity-70">
             {{ item.description }}
           </p>
-          <button class="text-accent mb-5">Read more &rarr;</button>
+          <nuxt-link :to="`/blogging/${item.slug}`" class="text-accent mb-5"
+            >Read more &rarr;</nuxt-link
+          >
 
           <div class="flex justify-center">
             <div class="p-1 ">
               <div
                 class="p-1 bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400 rounded-full"
               >
-                <img
-                  src="../../static/avatar.png"
-                  class="w-14 h-14 rounded-full"
+                <nuxt-img
+                  src="/avatar.png"
+                  class=" w-14 h-14 rounded-full"
+                  width="50"
+                  height="50"
                 />
               </div>
             </div>
@@ -117,11 +122,11 @@
         </h1>
         <div class="container px-5 py-10">
           <!-- <pre>{{ data.talks }}</pre> -->
-          <a
+          <nuxt-link
             v-for="post in externalPosts"
             :key="post.title"
             class="flex relative pt-10 pb-10 sm:items-center md:w-2/3 mx-auto"
-            :href="post.url"
+            :to="post.url"
             target="blank"
           >
             <div
@@ -147,7 +152,7 @@
                 <p class="mt-3 opacity-70">{{ formatDate(post.date) }}</p>
               </div>
             </div>
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </section>
@@ -174,14 +179,17 @@ export default {
   },
   computed: {
     featuredPost() {
-      let post = this.nativePosts.filter(item => item.featured === true);
-      return post;
+      if (this.nativePosts) {
+        let post = this.nativePosts.filter(item => item.featured === true);
+        return post;
+      }
+      return [];
     }
   },
 
   methods: {
     // truncate the description
-    shortDescription(description, number) {
+    shortDescription(description) {
       return description.toString().substring(0, 200) + "...";
     },
     formatDate(date) {

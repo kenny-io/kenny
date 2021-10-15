@@ -5,8 +5,8 @@ authors:
   - Ekene Eze
 date: 2021-01-29
 lastmod: 2021-01-29
-featured: true
-thumbnail: /_nuxt/content/blog/images/deep-dive.png
+featured: false
+image: "../../content/blog/images/deep-dive.png"
 topics:
   - tutorials
 tags:

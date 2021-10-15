@@ -36,9 +36,15 @@
           class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg "
         ></div>
         <div>
-          <img
+          <!-- <img
             src="../static/kenny-2.png"
             class="max-w-xs md:max-w-lg rounded-lg shadow-2xl opacity-95 hover:opacity-80 "
+          /> -->
+          <nuxt-img
+            src="/kenny-2.png"
+            class="max-w-xs md:max-w-lg rounded-lg shadow-2xl opacity-95 hover:opacity-80 "
+            sizes="sm:max-w-xs md:100vw lg:800px"
+            alt="kenny image posing for a headshot"
           />
         </div>
       </div>

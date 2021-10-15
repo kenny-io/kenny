@@ -69,28 +69,28 @@ export default {
     return {
       projects: [
         {
-          title: "Build a Nuxt App with Tailwind CSS and Sanity",
+          title: "Build a Nuxt App with Tailwind CSS and Sanity 1",
           description:
             "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over ",
           date: "Sep 20, 2021",
           hasSite: true
         },
         {
-          title: "Build a Nuxt App with Tailwind CSS and Sanity",
+          title: "Build a Nuxt App with Tailwind CSS and Sanity 2",
           description:
             "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over ",
           date: "Sep 20, 2021",
           hasSite: false
         },
         {
-          title: "Build a Nuxt App with Tailwind CSS and Sanity",
+          title: "Build a Nuxt App with Tailwind CSS and Sanity 3",
           description:
             "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over ",
           date: "Sep 20, 2021",
           hasSite: true
         },
         {
-          title: "Build a Nuxt App with Tailwind CSS and Sanity",
+          title: "Build a Nuxt App with Tailwind CSS and Sanity 4",
           description:
             "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over freegan heirloom neutra air Copper mug try-hard pitchfork pour-over ",
           date: "Sep 20, 2021",
