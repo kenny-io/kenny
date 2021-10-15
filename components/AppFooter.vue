@@ -14,15 +14,15 @@
         Otherwise, keep scrolling, no hard feelings :).
       </p>
 
-      <form class="flex justify-center mt-10">
+      <form action="/subscribe" class="flex justify-center mt-10">
         <div class="form-control w-80">
           <div class="relative">
             <input
               type="text"
               placeholder="username@site.com"
               class="w-4/5 pr-16 input input-bordered"
+              name="email"
             />
-
             <app-button class=" w-1/5 absolute top-0 right-0 " :title="`Go`" />
           </div>
         </div>

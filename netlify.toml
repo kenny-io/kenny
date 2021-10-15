@@ -1,0 +1,13 @@
+
+[build]
+
+publish = "dist"
+command = "yarn generate"
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+from = "/subscribe"
+to = "/.netlify/functions/subscribe"
+status = 200
