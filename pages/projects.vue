@@ -9,11 +9,12 @@
             Projects
           </h1>
           <p class="leading-relaxed opacity-70">
-            Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-            tousled. Chambray dreamcatcher trust fund, kitsch vice godard
-            disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh.
-            Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan
-            photo booth af fingerstache pitchfork.
+            When I write content or make video tutorials, I often do it along
+            with a project to better demonstrate what I'm teaching. I strongly
+            believe that a good way to inform is not just to tell but also to
+            show. So for every concept I teach, I build a project to demonstrate
+            said concept. I've listed some of these demos here for anyone keen
+            to look.
           </p>
         </div>
       </div>

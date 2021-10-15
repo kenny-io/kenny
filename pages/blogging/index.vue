@@ -9,11 +9,11 @@
             Blogging
           </h1>
           <p class="leading-relaxed opacity-70">
-            Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-            tousled. Chambray dreamcatcher trust fund, kitsch vice godard
-            disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh.
-            Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan
-            photo booth af fingerstache pitchfork.
+            Writing is a huge part of my content delivery approach. It is the
+            fastest way I know to quickly share the things I've learnt in the
+            course of my work and other activities. I have mostly written
+            content that are published on other platforms, but I've also decided
+            to write specifically for my blog here.
           </p>
         </div>
       </div>
