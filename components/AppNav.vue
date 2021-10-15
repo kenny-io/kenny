@@ -17,7 +17,7 @@
             <div class="group" v-for="item in items" :key="item">
               <nuxt-link
                 :to="`/${item}`"
-                class="btn-sm leading-6 font-normal text-base leading-6 cursor-pointer"
+                class="btn-sm hover:opacity-70 opacity-100 leading-6 font-normal text-base leading-6 cursor-pointer"
               >
                 {{ item }}
               </nuxt-link>

@@ -1,12 +1,12 @@
 <template>
-  <div class="hero min-h-screen ">
+  <div class="hero min-h-screen text-primary-content">
     <div class="flex-col hero-content lg:flex-row-reverse">
       <div class="flex-col hero-content">
-        <h1 class="sm:text-7xl text-5xl font-black mb-10 text-primary-content">
+        <h1 class="sm:text-7xl text-5xl font-black mb-10">
           About <span class="text-accent">Kenny</span>
         </h1>
         <p
-          class="mb-10 text-primary-content opacity-50 text-base leading-relaxed xl:w-2/4 lg:w-3/4"
+          class="mb-10  opacity-70 text-base leading-relaxed xl:w-2/4 lg:w-3/4"
         >
           I do developer experience at Netlify and I love working on projects
           that help other software engineers. <br />
@@ -22,13 +22,13 @@
         </p>
 
         <div class="group">
-          <div class="badge badge-accent badge-outline">ES6</div>
-          <div class="badge badge-accent badge-outline">Jamstack</div>
-          <div class="badge badge-accent badge-outline">Vue</div>
-          <div class="badge badge-accent badge-outline">Nuxt</div>
-          <div class="badge badge-accent badge-outline">Serverless</div>
-          <div class="badge badge-accent badge-outline">Supabase</div>
-          <div class="badge badge-accent badge-outline">Sanity</div>
+          <div
+            v-for="tech in techs"
+            :key="tech"
+            class="badge badge-primary badge-outline px-4 py-4 text-black m-1"
+          >
+            {{ tech }}
+          </div>
         </div>
       </div>
       <div class="relative group">
@@ -45,3 +45,13 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      techs: ["ES6", "Jamstack", "Vue", "Nuxt", "Serverless", "Supabase"]
+    };
+  }
+};
+</script>

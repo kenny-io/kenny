@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <section class="text-gray-300 body-font">
+    <section class="text-primary-content">
       <div
         class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
       >
@@ -8,7 +8,7 @@
           <h1 class="mb-5 text-5xl font-bold text-accent">
             Blogging
           </h1>
-          <p class="leading-relaxed">
+          <p class="leading-relaxed opacity-70">
             Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
             tousled. Chambray dreamcatcher trust fund, kitsch vice godard
             disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh.
@@ -18,7 +18,7 @@
         </div>
       </div>
     </section>
-    <section class="text-gray-600 body-font">
+    <section class="text-primary-content">
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
@@ -38,7 +38,7 @@
           <span class="mb-5">
             <div class="badge badge-accent badge-outline">featured</div>
           </span>
-          <p class="mb-3 leading-relaxed opacity-50">
+          <p class="mb-3 leading-relaxed opacity-70">
             Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
             plant cold-pressed tacos poke beard tote bag. Heirloom echo park
             mlkshk tote bag selvage hot chicken authentic tumeric truffaut
@@ -58,7 +58,7 @@
               </div>
             </div>
 
-            <div class="author ml-5 mt-3 text-primary-content opacity-50">
+            <div class="author ml-5 mt-3 opacity-70">
               <h2>Ekene Eze</h2>
               <p>Sep 20, 2021</p>
             </div>
@@ -80,9 +80,9 @@
             :key="article.title"
             class="card lg:card-side mb-10 border-2 border-yellow-500 max-w-xxl mx-auto"
           >
-            <div class="card-body text-primary-content">
-              <h2 class="card-title ">{{ article.title }}</h2>
-              <p>
+            <div class="card-body">
+              <h2 class="card-title">{{ article.title }}</h2>
+              <p class="opacity-70">
                 {{ shortDescription(article.description) }}
               </p>
               <div class="card-actions">
@@ -127,7 +127,7 @@
                 <h2 class="font-medium title-font mb-1 text-xl ">
                   {{ talk.title }}
                 </h2>
-                <p class="leading-relaxed opacity-50">
+                <p class="leading-relaxed opacity-70">
                   {{ talk.description }}
                 </p>
                 <p class="mt-3">{{ formatDate(talk.date) }}</p>

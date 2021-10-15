@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <section class="text-gray-300 body-font">
+    <section class="text-primary-content">
       <div
         class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
       >
@@ -8,7 +8,7 @@
           <h1 class="mb-5 text-5xl font-bold text-accent">
             Projects
           </h1>
-          <p class="leading-relaxed">
+          <p class="leading-relaxed opacity-70">
             Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
             tousled. Chambray dreamcatcher trust fund, kitsch vice godard
             disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh.
@@ -18,7 +18,7 @@
         </div>
       </div>
     </section>
-    <section class="text-gray-600 body-font overflow-hidden">
+    <section class="text-primary-content overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
         <div class="-my-8 divide-y-2 divide-gray-100">
           <div
@@ -29,22 +29,19 @@
             <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
               <span
                 v-if="project.hasSite"
-                class="font-semibold title-font text-gray-700"
+                class="font-normal title-font opacity-70"
                 >SITE</span
               >
-              <span v-else class="font-semibold title-font text-gray-700"
+              <span v-else class="font-normal title-font opacity-70 "
                 >NORMAL</span
               >
-
-              <span class="mt-1 text-gray-500 text-sm">{{ project.date }}</span>
+              <span class="mt-1 opacity-70 text-sm">{{ project.date }}</span>
             </div>
             <div class="md:flex-grow">
-              <h2
-                class="text-2xl font-medium text-primary-content title-font mb-2"
-              >
+              <h2 class="text-2xl font-medium title-font mb-2">
                 {{ project.title }}
               </h2>
-              <p class="leading-relaxed">
+              <p class="leading-relaxed opacity-70">
                 {{ project.description }}
               </p>
               <a class="text-yellow-500 inline-flex items-center mt-4 mr-5"
