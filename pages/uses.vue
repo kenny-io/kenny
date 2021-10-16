@@ -1,5 +1,5 @@
 <template>
-  <section class="text-primary-content body-font">
+  <section data-theme="kennylight" class="text-primary-content body-font">
     <div
       class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
     >
@@ -7,48 +7,10 @@
         <h1 class="mb-5 text-5xl font-bold text-accent">
           Uses
         </h1>
-        <p class="leading-relaxed mt-5 mb-5 opacity-70 ">
-          Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-          tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt
-          ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over
-          meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth
-          af fingerstache pitchfork.
-        </p>
-        <p class="leading-relaxed mt-5 mb-5 opacity-70">
-          Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-          tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt
-          ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over
-          meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth
-          af fingerstache pitchfork.
-        </p>
-        <p class="leading-relaxed mt-5 mb-5 opacity-70">
-          Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-          tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt
-          ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over
-          meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth
-          af fingerstache pitchfork.
-        </p>
-        <p class="leading-relaxed mt-5 mb-5 opacity-70">
-          Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-          tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt
-          ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over
-          meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth
-          af fingerstache pitchfork.
-        </p>
-        <p class="leading-relaxed mt-5 mb-5 opacity-70">
-          Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-          tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt
-          ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over
-          meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth
-          af fingerstache pitchfork.
-        </p>
-        <p class="leading-relaxed opacity-70">
-          Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-          tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt
-          ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over
-          meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth
-          af fingerstache pitchfork.
-        </p>
+        <nuxt-content
+          class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl"
+          :document="page"
+        ></nuxt-content>
       </div>
     </div>
   </section>
@@ -65,6 +27,10 @@ export default {
         content: "A list of tools I use daily for work and productivity"
       }
     ]
+  },
+  async asyncData({ $content }) {
+    const page = await $content("uses").fetch();
+    return { page };
   }
 };
 </script>
