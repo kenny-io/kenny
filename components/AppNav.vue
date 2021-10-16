@@ -40,13 +40,27 @@
         </div>
 
         <!-- Secondary nav -->
-        <div>
+        <div class="flex space-x-4">
           <a
             class="hidden md:flex btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
             href="https://www.buymeacoffee.com/ekene"
           >
             Buy me a coffee
           </a>
+
+          <div class="hidden md:flex mt-3">
+            <!-- <p class="invisible md:visible">🌚</p> -->
+            <div class="inline-block w-10 mr-2 ml-2">
+              <span
+                data-toggle-theme="kennylight"
+                data-act-class="pl-4"
+                class="border rounded-full border-accent flex items-center cursor-pointer w-10 transition-all duration-300 ease-in-out pl-0"
+              >
+                <span class="rounded-full w-3 h-3 m-1 bg-accent"> </span>
+              </span>
+            </div>
+            <!-- <p class="invisible md:visible">🌞</p> -->
+          </div>
 
           <!-- mobile nav -->
           <div
@@ -101,7 +115,7 @@
 export default {
   data() {
     return {
-      items: ["About", "Speaking", "Blogging", "Projects", "Uses"],
+      items: ["About", "Speaking", "Blogging", "Demos", "Uses"],
       showMobileDrawer: false
     };
   },

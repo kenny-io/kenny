@@ -19,7 +19,14 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    script: [
+      {
+        hid: "stripe",
+        src: "https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js",
+        defer: true
+      }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

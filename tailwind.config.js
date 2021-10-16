@@ -14,7 +14,8 @@ module.exports = {
           "secondary-content": "#ffffff",
           accent: "#FEA920",
           "accent-focus": "#fa9604",
-          "accent-content": "#000"
+          "accent-content": "#000",
+          "menu-stroke": "#000"
         }
       },
       {
@@ -30,7 +31,8 @@ module.exports = {
           info: "#2094f3",
           success: "#009485",
           warning: "#ff9900",
-          error: "#ff5724"
+          error: "#ff5724",
+          "menu-stroke": "#fff"
         }
       }
     ],
