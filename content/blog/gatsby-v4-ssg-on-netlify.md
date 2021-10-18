@@ -6,7 +6,7 @@ authors:
 date: 2021-10-18
 lastmod: 2021-10-18
 featured: true
-image: "/content/blog/images/gatsby-v4-on-netlify.png"
+image: "https://res.cloudinary.com/kennyy/image/upload/v1634570072/blogging/Gatsby_SSG_Og.png"
 topics:
   - tutorials
 tags:

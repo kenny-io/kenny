@@ -12,7 +12,14 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Get to know about Ekene Eze from this website"
+        content:
+          "Get to know Ekene Eze and see some of his works and content from this website"
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content:
+          "https://res.cloudinary.com/kennyy/image/upload/v1634571746/blogging/og.png"
       }
     ]
   }
