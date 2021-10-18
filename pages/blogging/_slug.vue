@@ -31,24 +31,24 @@ export default {
           hid: "description",
           name: "description",
           content: this.post.description
-        },
+        }
 
         // Twitter Card
-        {
-          hid: "twitter:title",
-          name: "twitter:title",
-          content: this.post.title
-        },
-        {
-          hid: "twitter:description",
-          name: "twitter:description",
-          content: this.post.description
-        },
-        {
-          hid: "twitter:image",
-          name: "twitter:image",
-          content: this.post.image
-        }
+        // {
+        //   hid: "twitter:title",
+        //   name: "twitter:title",
+        //   content: this.post.title
+        // },
+        // {
+        //   hid: "twitter:description",
+        //   name: "twitter:description",
+        //   content: this.post.description
+        // },
+        // {
+        //   hid: "twitter:image",
+        //   name: "twitter:image",
+        //   content: this.post.image
+        // }
       ],
       link: [
         {
