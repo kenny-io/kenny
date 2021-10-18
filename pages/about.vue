@@ -37,7 +37,7 @@
         ></div>
         <div>
           <nuxt-img
-            src="/kenny-2.png"
+            src="/kenny-about.jpg"
             format="webp"
             class="max-w-xs md:max-w-lg rounded-lg shadow-2xl opacity-95 hover:opacity-80 "
             sizes="sm:max-w-xs md:100vw lg:800px"
