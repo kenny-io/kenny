@@ -79,11 +79,14 @@
                     :href="talk.video"
                     class="btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
                     v-if="talk.status === 'done'"
+                    target="_blank"
+                    rel="noopener"
                   >
                     Watch Talk
                   </a>
                   <a
                     :href="talk.video"
+                    target="_blank"
                     class="btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
                     v-else
                     disabled
