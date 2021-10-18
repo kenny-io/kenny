@@ -19,7 +19,7 @@
 <script>
 export default {
   head: {
-    title: "Uses page",
+    title: "Ekene Eze | Uses",
     meta: [
       {
         hid: "description",

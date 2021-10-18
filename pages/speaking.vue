@@ -62,12 +62,34 @@
                 />
               </figure>
               <div class="justify-end card-body text-primary-content">
-                <h2 class="card-title ">{{ talk.conference }}</h2>
+                <div class="flex space-x-4 py-2">
+                  <h2 class="card-title ">{{ talk.conference }}</h2>
+                  <span
+                    v-if="talk.status === 'upcoming'"
+                    class="badge badge-accent badge-outline"
+                  >
+                    {{ talk.status }}
+                  </span>
+                </div>
                 <p class="opacity-80">
                   {{ shortDescription(talk.description) }}
                 </p>
                 <div class="card-actions">
-                  <app-button :title="`Watch Talk`" />
+                  <a
+                    :href="talk.video"
+                    class="btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
+                    v-if="talk.status === 'done'"
+                  >
+                    Watch Talk
+                  </a>
+                  <a
+                    :href="talk.video"
+                    class="btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
+                    v-else
+                    disabled
+                  >
+                    Coming soon
+                  </a>
                 </div>
               </div>
             </div>
@@ -88,7 +110,7 @@
 <script>
 export default {
   head: {
-    title: "Speaking page",
+    title: "Ekene Eze | Speaking",
     meta: [
       {
         hid: "description",
@@ -105,7 +127,7 @@ export default {
   },
   async fetch() {
     this.talks = await this.$content("talks")
-      .only(["title", "description", "conference"])
+      .only(["title", "description", "conference", "status", "video"])
       .sortBy("date", "desc")
       .search(this.query)
       .fetch();

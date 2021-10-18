@@ -15,7 +15,7 @@
 <script>
 export default {
   head: {
-    title: "Thanks page",
+    title: "Thanks",
     meta: [
       {
         hid: "description",

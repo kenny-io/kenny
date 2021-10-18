@@ -43,9 +43,10 @@
         <div class="flex space-x-4">
           <a
             class="hidden md:flex btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
-            href="https://www.buymeacoffee.com/ekene"
+            href="https://www.youtube.com/c/EkeneEze"
+            target="_blank"
           >
-            Buy me a coffee
+            Subscribe
           </a>
 
           <div class="hidden md:flex mt-3">
