@@ -124,6 +124,7 @@
             class="flex relative pt-10 pb-10 sm:items-center md:w-2/3 mx-auto"
             :to="post.url"
             target="blank"
+            rel="noopener"
           >
             <div
               class="h-full w-6 absolute inset-0 flex items-center justify-center"

@@ -1,5 +1,10 @@
 module.exports = {
-  purge: [],
+  purge: {
+    content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.md"],
+    options: {
+      safelist: [/data-theme$/]
+    }
+  },
   // darkMode: "class", // or 'media' or 'class'
   daisyui: {
     styled: true,

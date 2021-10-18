@@ -45,6 +45,7 @@
             class="hidden md:flex btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
             href="https://www.youtube.com/c/EkeneEze"
             target="_blank"
+            rel="noopener"
           >
             Subscribe
           </a>
