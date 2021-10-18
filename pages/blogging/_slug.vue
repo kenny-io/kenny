@@ -32,17 +32,7 @@ export default {
           name: "description",
           content: this.post.description
         },
-        // Open Graph
-        {
-          hid: "og:title",
-          property: "og:title",
-          content: this.post.title
-        },
-        {
-          hid: "og:description",
-          property: "og:description",
-          content: this.post.description
-        },
+
         // Twitter Card
         {
           hid: "twitter:title",
@@ -86,7 +76,7 @@ export default {
         title: this.post.title,
         description: this.post.description,
         url: `https://kenny.engineer/blogging/${this.$route.params.slug}`,
-        mainImage: this.socialImage
+        mainImage: this.post.image
       };
       return getSiteMeta(metaData);
     }
