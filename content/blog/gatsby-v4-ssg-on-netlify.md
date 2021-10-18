@@ -99,13 +99,13 @@ module.exports = {
 
 #### 3. Set build configuration
 
-Gatsby requires Node 14 to build and SSR/DSG rendering modes to work correctly. During the beta period, you need to manually set the environment variable `AWS_LAMBDA_JS_RUNTIME` to `nodejs14.x` to ensure SSR and DSR use the correct versions.
+Gatsby requires Node 14 to build and SSR/DSG rendering modes to work correctly. During the beta period, you need to manually set the environment variable `AWS_LAMBDA_JS_RUNTIME` to `nodejs14.x` to ensure SSR and DSG use the correct versions.
 
 > Note - This must be done in the Netlify UI, not in the netlify.toml file. Need information on how to do that? here's [the docs for it](https://docs.netlify.com/functions/build-with-javascript/#runtime-settings).
 
 ### Confirm SSG rendering
 
-Now that we've completed those steps, you can deploy your Gatsby 4 site on Netlify and monitor the deploy logs for evidence of SSG rendering. In my case, I did this in my Gatsby code:
+Now that we've completed those steps, you can deploy your Gatsby 4 site on Netlify and monitor the deploy logs for evidence of DSG rendering. In my case, I did this in my Gatsby config like this:
 
 ```js
   for (const node of data.allMarkdownRemark.nodes) {
