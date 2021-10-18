@@ -19,11 +19,14 @@
 </template>
 
 <script>
+import getSiteMeta from "~/utils/getSiteMeta.js";
 export default {
   head() {
     return {
       title: this.post.title,
+
       meta: [
+        ...this.meta,
         {
           hid: "description",
           name: "description",
@@ -56,6 +59,13 @@ export default {
           name: "twitter:image",
           content: this.post.image
         }
+      ],
+      link: [
+        {
+          hid: "canonical",
+          rel: "canonical",
+          href: `https://kenny.engineer/blogging/${this.$route.params.slug}`
+        }
       ]
     };
   },
@@ -68,6 +78,22 @@ export default {
       const options = { year: "numeric", month: "long", day: "numeric" };
       return new Date(date).toLocaleDateString("en", options);
     }
+  },
+  computed: {
+    meta() {
+      const metaData = {
+        type: "article",
+        title: this.post.title,
+        description: this.post.description,
+        url: `https://kenny.engineer/blogging/${this.$route.params.slug}`,
+        mainImage: this.socialImage
+      };
+      return getSiteMeta(metaData);
+    }
+  },
+
+  mounted() {
+    console.log(this.$route.params.slug);
   }
 };
 </script>
