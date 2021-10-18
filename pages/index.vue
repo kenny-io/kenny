@@ -13,6 +13,11 @@ export default {
         hid: "description",
         name: "description",
         content: "Get to know about Ekene Eze from this website"
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: "/og.png"
       }
     ]
   }

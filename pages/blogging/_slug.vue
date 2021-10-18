@@ -50,6 +50,11 @@ export default {
           hid: "twitter:description",
           name: "twitter:description",
           content: this.post.description
+        },
+        {
+          hid: "twitter:image",
+          name: "twitter:image",
+          content: this.post.image
         }
       ]
     };
