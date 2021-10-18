@@ -50,7 +50,7 @@
             >Read more &rarr;</nuxt-link
           >
 
-          <div class="flex justify-center">
+          <div class="hidden md:flex justify-center">
             <div class="p-1 ">
               <div
                 class="p-1 bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400 rounded-full"
@@ -95,27 +95,20 @@
           On this site
         </h1>
         <div class="grid flex-grow place-items-center ">
-          <div
+          <nuxt-link
             v-for="article in nativePosts"
             :key="article.title"
+            :to="`/blogging/${article.slug}`"
             class="card lg:card-side mb-10 border-2 border-yellow-500 max-w-xxl mx-auto"
           >
             <div class="card-body">
-              <h2 class="card-title">{{ article.title }}</h2>
+              <h2 class="card-title hover:opacity-70">{{ article.title }}</h2>
               <p class="opacity-70">
                 {{ shortDescription(article.description) }}
               </p>
               <p class="mt-3 opacity-70">{{ formatDate(article.date) }}</p>
-              <div class="card-actions">
-                <nuxt-link
-                  class="text-accent mb-5"
-                  :to="`/blogging/${article.slug}`"
-                >
-                  Read More &rarr;</nuxt-link
-                >
-              </div>
             </div>
-          </div>
+          </nuxt-link>
         </div>
       </div>
 
@@ -164,7 +157,7 @@
 <script>
 export default {
   head: {
-    title: "Ekene Eze Blog",
+    title: "Ekene Eze | Blog",
     meta: [
       {
         hid: "description",

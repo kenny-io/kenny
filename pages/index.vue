@@ -7,7 +7,7 @@
 <script>
 export default {
   head: {
-    title: "Ekene Eze website",
+    title: "Ekene Eze | Website",
     meta: [
       {
         hid: "description",

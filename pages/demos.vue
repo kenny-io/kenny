@@ -70,7 +70,7 @@
 <script>
 export default {
   head: {
-    title: "Project page",
+    title: "Ekene Eze | Demos",
     meta: [
       {
         hid: "description",
