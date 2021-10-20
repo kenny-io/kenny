@@ -4,49 +4,47 @@ I get asked often about my work set up and I've seen other people share their to
 
 #### Primary Laptop:
 
-MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)
-2.3 GHz Quad-Core Intel Core i7
-32 GB 3733 MHz LPDDR4X
+[MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports) 2.3 GHz Quad-Core Intel Core i7 32 GB 3733 MHz LPDDR4X](#)
 
 #### Monitor:
 
-LG LG-27UL850-W 27 inch IPS LED UHD Monitor With 60Hz, AMD FreeSync and DisplayPort HDMI VGA Black/Silver (x2)
+[LG LG-27UL850-W 27 inch IPS LED UHD Monitor With 60Hz, AMD FreeSync and DisplayPort HDMI VGA Black/Silver (x2)](https://www.noon.com/uae-en/lg-27ul850-w-27-inch-ips-led-uhd-monitor-with-60hz-amd-freesync-and-displayport-hdmi-vga-black-silver/N37410693A/p?o=d0d813e1b5f7dd3f)
 
 #### Mic:
 
-Shure SM7B Cardioid Dynamic Microphone
+[Shure SM7B Cardioid Dynamic Microphone](https://www.amazon.ae/gp/product/B0002E4Z8M/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&th=1)
 
 #### Mic stand:
 
-Gator Frameworks Deluxe Desk-Mounted Broadcast Microphone Boom Stand
+[Gator Frameworks Deluxe Desk-Mounted Broadcast Microphone Boom Stand](https://www.amazon.ae/gp/product/B082YHPC3Z/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1)
 
 #### Audio Interface:
 
-Presonos AudioBox 2
+[Presonos AudioBox 2](https://www.amazon.ae/PreSonus-AudioBox-Interface-Bundle-Headphone/dp/B08NF9RLRW/ref=sr_1_34?dchild=1&keywords=presonus+audiobox+2&qid=1634744230&sr=8-34)
 
 #### Cloudlifter:
 
-Cloudlifter CL-1 Mic Activator
+[Cloudlifter CL-1 Mic Activator](https://www.noon.com/uae-en/cloudlifter-mic-activator-cl-1-blue/N39032409A/p?o=bc5d8fbf7fed277d)
 
 #### Video:
 
-Logitech C922 Pro Stream Webcam.
+[Logitech C922 Pro Stream Webcam.](https://www.amazon.ae/Logitech-Hyperfast-Streaming-correction-Autofocus/dp/B01L6L52K4/ref=sr_1_1?dchild=1&keywords=logitech+c922+pro+stream+webcam&qid=1634744008&sr=8-1)
 
 #### Mechanical Keyboard:
 
-Keychron k8 Wireless Mechanical keyboard
+[Keychron k8 Wireless Mechanical keyboard](https://www.amazon.ae/Keychron-Wireless-Mechanical-Gaming-Keyboard/dp/B08V1B8NMN/ref=sr_1_1_sspa?dchild=1&keywords=Keychron%2Bk8%2BWireless%2BMechanical%2Bkeyboard&qid=1634744180&sr=8-1-spons&smid=A1C4DXB5RJOLLI&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySUhBWks0QU1EVFNZJmVuY3J5cHRlZElkPUEwNzc0NTQxQUExMlQ1V1E4R1M3JmVuY3J5cHRlZEFkSWQ9QTAzODg5ODUyT1FISFlRQUQ1OERKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1)
 
 #### Mouse:
 
-Logitech MX Master 3
+[Logitech MX Master 3](https://www.amazon.ae/Logitech-Ultrafast-Scrolling-Ergonomic-Customization/dp/B07W6JMMNC/ref=sr_1_1?dchild=1&keywords=Logitech+MX+Master+3&qid=1634744057&sr=8-1)
 
 #### Mouse Pad:
 
-RGB Gaming Mouse Pad, Extra Large Soft Led Extended Mouse pad, anti-slip Rubber Base Computer Keyboard Mat
+[RGB Gaming Mouse Pad, Extra Large Soft Led Extended Mouse pad, anti-slip Rubber Base Computer Keyboard Mat](https://www.amazon.ae/gp/product/B07QNDFV1V/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 
 #### Desk:
 
-Rover Smart Desk
+[Rover Smart Desk](https://www.homecentre.com/ae/en/Furniture/Office/Office-Desks/HOME-CENTRE-Rover-Smart-Desk/p/162998879?gclid=CjwKCAjw_L6LBhBbEiwA4c46ut9WNmSY3lTsSJNjdG_s27ZYuOtK2l5zB_TyC3LjhDVnXt8ypa9cCxoCU6QQAvD_BwE)
 
 ## Editor & Terminal
 
