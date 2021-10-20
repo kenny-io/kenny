@@ -118,11 +118,11 @@
         </h1>
         <div class="container px-5 py-10">
           <!-- <pre>{{ data.talks }}</pre> -->
-          <nuxt-link
+          <a
             v-for="post in externalPosts"
             :key="post.title"
             class="flex relative pt-10 pb-10 sm:items-center md:w-2/3 mx-auto"
-            :to="post.url"
+            :href="post.url"
             target="blank"
             rel="noopener"
           >
@@ -149,7 +149,7 @@
                 <p class="mt-3 opacity-70">{{ formatDate(post.date) }}</p>
               </div>
             </div>
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </section>
