@@ -5,8 +5,23 @@
   "date": "2021-06-24",
   "country": "Online",
   "site": "https://agilitycms.com/download/webinar-dpr-netlify",
-  "category": "jamstack",
+  "category": [
+    {
+      "id": "1",
+      "name": "jamstack"
+    },
+    {
+      "id": "2",
+      "name": "web"
+    },
+    {
+      "id": "3",
+      "name": "agility-cms"
+    }
+  ],
   "video": "https://youtu.be/6UuSRlWtpTI",
   "slides": "",
-  "status": "done"
+  "status": "done",
+  "image": "https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg",
+  "ready": true
 }

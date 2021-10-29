@@ -5,8 +5,15 @@
   "date": "2019-10-15",
   "country": "Kenya",
   "site": "https://concatenate.io",
-  "category": "fintech",
+  "category": [
+    {
+      "id": "1",
+      "name": "fintech"
+    }
+  ],
   "video": "https://youtu.be/aFI5RY_4meY",
   "slides": "https://speakerdeck.com/kenny_io/building-customizable-checkout-experiences-with-flutterwave",
-  "status": "done"
+  "status": "done",
+  "image": "https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg",
+  "ready": true
 }

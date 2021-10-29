@@ -5,8 +5,23 @@
   "date": "2021-04-22",
   "country": "Online",
   "site": "https://conf.strapi.io/",
-  "category": "Jamstack",
+  "category": [
+    {
+      "id": "1",
+      "name": "jamstack"
+    },
+    {
+      "id": "2",
+      "name": "strapi"
+    },
+    {
+      "id": "3",
+      "name": "web"
+    }
+  ],
   "video": "https://youtu.be/Vn9OASpqQZk",
   "slides": "",
-  "status": "done"
+  "status": "done",
+  "image": "https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg",
+  "ready": true
 }

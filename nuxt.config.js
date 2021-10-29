@@ -6,6 +6,11 @@ const wrap = (code, lang) =>
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
+  image: {
+    cloudinary: {
+      baseURL: "https://res.cloudinary.com/kennyy/image/upload/"
+    }
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

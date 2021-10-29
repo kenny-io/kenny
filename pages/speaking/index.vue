@@ -4,11 +4,11 @@
       <div class="hero md:min-h-screen w-full">
         <div class="hero-overlay conf"></div>
         <div class="text-center hero-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold text-accent mt-5">
+          <div class="max-w-md mt-5">
+            <h1 class="mb-5 text-5xl font-bold text-accent mt-8">
               Speaking
             </h1>
-            <p class="mb-5 text-secondary-content opacity-70">
+            <p class="mb-5 text-secondary-content opacity-80">
               I've spoken at ...hmmmm, I don't actually have a number :) But I
               love any opportunity to share with the community so if you have an
               event coming up and you think I could be a good fit, please
@@ -49,53 +49,39 @@
       <div class="container px-5 py-12 mx-auto">
         <div class="flex flex-wrap -m-4">
           <div v-for="talk in talks" :key="talk.title" class="p-4 md:w-1/3">
-            <div class="card shadow-xl overflow-hidden w-full max-w-lg ">
-              <figure class="px-10 pt-10">
-                <nuxt-img
-                  alt="picture of kenny speaking at a conference"
-                  class="rounded-xl"
-                  format="webp"
-                  src="/kenny-3.jpg"
-                  sizes="sm:100vw md:50vw lg:400px"
-                  width="100"
-                  height="150"
-                />
-              </figure>
-              <div class="justify-end card-body text-primary-content">
-                <div class="flex space-x-4 py-2">
-                  <h2 class="card-title ">{{ talk.conference }}</h2>
-                  <span
-                    v-if="talk.status === 'upcoming'"
-                    class="badge badge-accent badge-outline"
-                  >
-                    {{ talk.status }}
-                  </span>
-                </div>
-                <p class="opacity-80">
-                  {{ shortDescription(talk.description) }}
-                </p>
-                <div class="card-actions">
-                  <a
-                    :href="talk.video"
-                    class="btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
-                    v-if="talk.status === 'done'"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    Watch Talk
-                  </a>
-                  <a
-                    :href="talk.video"
-                    target="_blank"
-                    class="btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
-                    v-else
-                    disabled
-                  >
-                    Coming soon
-                  </a>
+            <nuxt-link :to="`/speaking/${talk.slug}`">
+              <div class="card shadow-xl overflow-hidden w-full max-w-lg">
+                <figure class="px-10 pt-10">
+                  <nuxt-img
+                    alt="picture of kenny speaking at a conference"
+                    class="rounded-xl"
+                    format="webp"
+                    src="/kenny-3.jpg"
+                    sizes="sm:100vw md:50vw lg:400px"
+                    width="100"
+                    height="100"
+                  />
+                </figure>
+                <div class="justify-end card-body text-primary-content">
+                  <div class="flex  space-x-4 py-2">
+                    <h2 class="card-title ">{{ talk.conference }}</h2>
+
+                    <span
+                      v-if="talk.status === 'upcoming'"
+                      class="badge badge-accent badge-outline"
+                    >
+                      {{ talk.status }}
+                    </span>
+                  </div>
+                  <p class="opacity-80 mb-3 font-bold text-2xl">
+                    {{ talk.title }}
+                  </p>
+                  <p class="opacity-80">
+                    {{ shortDescription(talk.description) }}
+                  </p>
                 </div>
               </div>
-            </div>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -104,7 +90,7 @@
 </template>
 <style>
 .conf {
-  background-image: url("../static/kenny-speaking.jpg");
+  background-image: url("../../static/kenny-speaking.jpg");
   background-size: cover;
   opacity: 0.9;
 }
@@ -130,7 +116,6 @@ export default {
   },
   async fetch() {
     this.talks = await this.$content("talks")
-      .only(["title", "description", "conference", "status", "video"])
       .sortBy("date", "desc")
       .search(this.query)
       .fetch();

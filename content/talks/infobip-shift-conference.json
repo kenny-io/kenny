@@ -5,8 +5,23 @@
   "date": "2020-09-08",
   "country": "Croatia",
   "site": "https://shift.infobip.com",
-  "category": "web",
+  "category": [
+    {
+      "id": "1",
+      "name": "jamstack"
+    },
+    {
+      "id": "2",
+      "name": "web"
+    },
+    {
+      "id": "3",
+      "name": "infobip-shift"
+    }
+  ],
   "video": "https://youtu.be/TAMtz0h4atM",
   "slides": "https://slides.com/kenny_io/faster-jamstack-builds",
-  "status": "done"
+  "status": "done",
+  "image": "https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg",
+  "ready": true
 }
