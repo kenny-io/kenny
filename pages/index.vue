@@ -5,13 +5,10 @@
 </template>
 
 <script>
-import getSiteMeta from "~/utils/getSiteMeta";
 export default {
   head: {
     title: "Ekene Eze | Website",
     meta: [
-      ...this.meta,
-
       {
         hid: "description",
         name: "description",
