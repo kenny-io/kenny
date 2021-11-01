@@ -5,8 +5,19 @@
   "date": "2021-10-20",
   "country": "UK",
   "site": "https://vuejslive.com",
-  "category": "jamstack",
+  "category": [
+    {
+      "id": "1",
+      "name": "vue"
+    },
+    {
+      "id": "2",
+      "name": "jamstack"
+    }
+  ],
   "video": "",
   "slides": "",
-  "status": "upcoming"
+  "status": "done",
+  "ready": false,
+  "image": "https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg"
 }
