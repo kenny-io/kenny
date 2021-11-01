@@ -56,7 +56,7 @@
                     alt="picture of kenny speaking at a conference"
                     class="rounded-xl"
                     format="webp"
-                    src="/kenny-3.jpg"
+                    src="/kenny-speaks.jpg"
                     sizes="sm:100vw md:50vw lg:400px"
                     width="100"
                     height="100"
