@@ -25,12 +25,14 @@
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
       >
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <!-- <pre>{{ item.image }}</pre> -->
           <nuxt-img
+            provider="cloudinary"
             class="object-cover object-center rounded"
             alt="post cover image"
-            src="/images/gatsby-v4-on-netlify.png"
-            width="550"
-            height="450"
+            :src="item.thumbnail"
+            width="1200"
+            height="750"
           />
           <!-- <pre class="text-white">{{ item.image }}</pre> -->
         </div>
@@ -38,7 +40,9 @@
           class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center text-primary-content"
         >
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium ">
-            {{ item.title }}
+            <nuxt-link :to="`/blogging/${item.slug}`">
+              {{ item.title }}
+            </nuxt-link>
           </h1>
           <span class="mb-5">
             <div class="badge badge-accent badge-outline">featured</div>
@@ -46,9 +50,9 @@
           <p class="mb-3 leading-relaxed opacity-70">
             {{ item.description }}
           </p>
-          <nuxt-link :to="`/blogging/${item.slug}`" class="text-accent mb-5"
+          <!-- <nuxt-link :to="`/blogging/${item.slug}`" class="text-accent mb-5"
             >Read more &rarr;</nuxt-link
-          >
+          > -->
 
           <div class="hidden md:flex justify-center">
             <div class="p-1 ">
@@ -189,6 +193,7 @@ export default {
     featuredPost() {
       if (this.nativePosts) {
         let post = this.nativePosts.filter(item => item.featured === true);
+        console.log(post);
         return post;
       }
       return [];

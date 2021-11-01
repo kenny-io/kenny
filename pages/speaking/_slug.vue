@@ -2,12 +2,12 @@
   <section class="text-primary-content body-font overflow-hidden">
     <div class="container px-5 py-24 mx-auto">
       <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <img
+        <nuxt-img
           alt="kenny-speaking-at-a-conference"
-          width="100"
-          height="70"
+          width="800"
+          height="700"
           class="lg:w-1/2 w-1/2 lg:h-1/2 h-1/2 object-cover object-center rounded"
-          :src="talk.image"
+          src="/speaking/speaking-avatar.png"
         />
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
           <h2 class="text-sm title-font opacity-70 tracking-widest">
