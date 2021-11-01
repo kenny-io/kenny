@@ -5,7 +5,7 @@ authors:
   - Ekene Eze
 date: 2021-10-18
 lastmod: 2021-10-18
-featured: false
+featured: true
 image: "https://res.cloudinary.com/kennyy/image/upload/v1634570072/blogging/Gatsby_SSG_Og.png"
 topics:
   - tutorials
