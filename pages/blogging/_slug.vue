@@ -63,10 +63,6 @@ export default {
       };
       return getSiteMeta(metaData);
     }
-  },
-
-  mounted() {
-    console.log(this.$route.params.slug);
   }
 };
 </script>
