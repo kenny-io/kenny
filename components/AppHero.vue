@@ -54,7 +54,7 @@
           <a
             role="listitem"
             class="btn text-primary hover:bg-accent hover:text-secondary mt-2"
-            href="https://github.com/kenny_io"
+            href="https://github.com/kenny-io"
             >Github
           </a>
         </div>
