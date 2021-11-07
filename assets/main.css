@@ -5,6 +5,7 @@
   margin: 0;
   /* background-color: #000814; */
   font-family: "Circular Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-display: swap;
 }
 @font-face {
   font-family: "Circular Std";
