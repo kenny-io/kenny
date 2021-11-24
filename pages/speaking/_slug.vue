@@ -57,7 +57,7 @@
                 v-else
                 disabled
               >
-                Coming soon
+                Video coming soon
               </a>
               <a
                 class="btn text-accent-content bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-400"
