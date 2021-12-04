@@ -19,9 +19,9 @@
       "name": "netlify"
     }
   ],
-  "video": "",
+  "video": "https://youtu.be/khYZmMiSHm8?t=1340",
   "slides": "https://docs.google.com/presentation/d/19ED5itx_K_fP8ZLnFwbjmhWyKNOHTe8u/edit?usp=sharing&ouid=110196232365146183174&rtpof=true&sd=true",
   "status": "upcoming",
-  "ready": false,
+  "ready": true,
   "image": "https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg"
 }
