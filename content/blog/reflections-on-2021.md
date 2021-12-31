@@ -1,13 +1,28 @@
 ---
-title: Reflections on 2021
-description: I've come to find value in documenting my experiences, choices, the things that worked, the ones that didn't and the lessons I learned. My major driver is to have something I can look back at in 5,10,20 years and get an idea of how my life has progressed over the years.
+title: How to add custom domains to Netlify sites!
+description:
+  Lets say that you bought a domain from a registrar like Godaddy or Namecheap. Then you build your site and deploy it on Netlify. Now, learn how to add your domain from the registry platform to
+  your Netlify site.
 authors:
-  - Ekene Eze
-date: 2021-12-31
-lastmod: 2021-12-31
-featured: false
-image: "/content/blog/images/reflections.png"
-thumbnail: "v1640962226/blogging/reflections.png"
+  - Ekene-Eze
+
+image: "https://res.cloudinary.com/kennyy/image/upload/v1640949795/blogging/custom_domains_banner.png"
+thumbnail: "v1640949795/blogging/custom_domains_banner.png"
+date: 2021-12-20
+lastmod: 2021-12-15
+topics:
+  - tutorials
+tags:
+  - netlify-dns
+tweet: ""
+format: blog
+featured: true
+seo:
+  ogimage: /images/custom-domains-og.png
+  metatitle: Learn how to add custom domains to your Netlify sites!
+  metadescription:
+    Learn how to add custom domains from multiple domain registrars
+    to your Netlify sites
 ---
 
 This is my first year-in-review post, you know why? There's no reason. I guess I just didn't find my life interesting enough to write about it. That begs the question, do I now? You bet I do.
