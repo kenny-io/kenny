@@ -3,24 +3,11 @@ title: Reflections on 2021
 description: I've come to find value in documenting my experiences, choices, the things that worked, the ones that didn't and the lessons I learned. My major driver is to have something I can look back at in 5,10,20 years and get an idea of how my life has progressed over the years.
 authors:
   - Ekene Eze
-
-image: "https://res.cloudinary.com/kennyy/image/upload/v1640962226/blogging/reflections.png"
-thumbnail: "v1640962226/blogging/reflections.png"
 date: 2021-12-31
-lastmod: 2021-12-21
-topics:
-  - tutorials
-tags:
-  - netlify-dns
-tweet: ""
-format: blog
-# featured: true
-seo:
-  ogimage: /images/custom-domains-og.png
-  metatitle: Learn how to add custom domains to your Netlify sites!
-  metadescription:
-    Learn how to add custom domains from multiple domain registrars
-    to your Netlify sites
+lastmod: 2021-12-31
+featured: false
+image: "/content/blog/images/reflections.png"
+thumbnail: "v1640962226/blogging/reflections.png"
 ---
 
 This is my first year-in-review post, you know why? There's no reason. I guess I just didn't find my life interesting enough to write about it. That begs the question, do I now? You bet I do.
