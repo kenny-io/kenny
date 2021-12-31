@@ -16,11 +16,9 @@ tags:
 
 category: "Gatsby"
 format: blog
-relatedposts:
 seo:
   metatitle: "Learn How to set up a Gatsby 4 project on Netlify with DSG rendering mode"
   metadescription: "Check out this post to explore Gatsby v4 rendering mode on Netlify. Learn how to deploy Gatsby 4 projects on Netlify with DSG rendering mode"
-  ogimage: /img/blog/vue-3-watch-api-deep-dive.png
 ---
 
 So Gatsby v4 is out and it came in hot!.
