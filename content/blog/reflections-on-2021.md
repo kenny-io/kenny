@@ -6,7 +6,7 @@ authors:
 date: 2021-12-31
 lastmod: 2021-12-31
 featured: false
-image: "https://res.cloudinary.com/kennyy/image/upload/v1634570072/blogging/Gatsby_SSG_Og.png"
+image: "https://res.cloudinary.com/kennyy/image/upload/v1640962226/blogging/reflections.png"
 ---
 
 This is my first year-in-review post, you know why? There's no reason. I guess I just didn't find my life interesting enough to write about it. That begs the question, do I now? You bet I do.
