@@ -1,24 +1,22 @@
 ---
-title: How to add custom domains to Netlify sites!
-description:
-  Lets say that you bought a domain from a registrar like Godaddy or Namecheap. Then you build your site and deploy it on Netlify. Now, learn how to add your domain from the registry platform to
-  your Netlify site.
+title: Reflections on 2021
+description: I've come to find value in documenting my experiences, choices, the things that worked, the ones that didn't and the lessons I learned. My major driver is to have something I can look back at in 5,10,20 years and get an idea of how my life has progressed over the years.
 authors:
   - Ekene-Eze
 
-image: "https://res.cloudinary.com/kennyy/image/upload/v1640949795/blogging/custom_domains_banner.png"
-thumbnail: "v1640949795/blogging/custom_domains_banner.png"
-date: 2021-12-20
-lastmod: 2021-12-15
+image: "https://res.cloudinary.com/kennyy/image/upload/v1640965849/blogging/reflecting-on-2021.jpg"
+thumbnail: "v1640965849/blogging/reflecting-on-2021.jpg"
+date: 2021-12-31
+lastmod: 2021-12-31
 topics:
   - tutorials
 tags:
   - netlify-dns
 tweet: ""
 format: blog
-featured: true
+# featured: true
 seo:
-  ogimage: /images/custom-domains-og.png
+  ogimage: /images/reflections.png
   metatitle: Learn how to add custom domains to your Netlify sites!
   metadescription:
     Learn how to add custom domains from multiple domain registrars
