@@ -13,7 +13,7 @@ tags:
   - TailwindCSS
   - Supabase
 tweet: ""
-featured: true
+
 canonical_url: "https://www.netlify.com/blog/2021/10/29/pairing-nuxt-3-with-tailwindcss-and-supabase/?utm_campaign=devex-ke&utm_source=twitter&utm_medium=social&utm_content=Nuxt3%20with%20Tailwind%20and%20Supabase%20post"
 image: "https://res.cloudinary.com/kennyy/image/upload/v1635771373/blogging/Nuxt_3_Tailwind_OG.png"
 thumbnail: "v1635771373/blogging/Nuxt_3_Tailwind_OG.png"

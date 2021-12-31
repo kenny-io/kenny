@@ -32,7 +32,7 @@
             alt="post cover image"
             :src="item.thumbnail"
             width="1200"
-            height="750"
+            height="700"
           />
           <!-- <pre class="text-white">{{ item.image }}</pre> -->
         </div>
