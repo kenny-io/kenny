@@ -16,7 +16,7 @@ tags:
   - netlify-dns
 tweet: ""
 format: blog
-featured: true
+# featured: true
 seo:
   ogimage: /images/custom-domains-og.png
   metatitle: Learn how to add custom domains to your Netlify sites!

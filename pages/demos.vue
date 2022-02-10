@@ -70,7 +70,7 @@
 <script>
 export default {
   head: {
-    title: "Ekene Eze | Demos",
+    title: "Demos | Ekene Eze",
     meta: [
       {
         hid: "description",
@@ -87,7 +87,7 @@ export default {
   },
   async fetch() {
     this.demos = await this.$content("demos")
-      .sortBy("date", "desc")
+      .sortBy("date", "description")
       .fetch();
   }
 };

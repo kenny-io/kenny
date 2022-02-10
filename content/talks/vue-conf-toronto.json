@@ -19,9 +19,9 @@
       "name": "nuxt 3"
     }
   ],
-  "video": "",
+  "video": "https://youtu.be/6vuvxBFqqrg",
   "slides": "https://docs.google.com/presentation/d/14doSUCkpvqGOymUi4iWRJMDCw1AdJjZ_/edit?usp=sharing&ouid=110196232365146183174&rtpof=true&sd=true",
   "status": "done",
-  "ready": false,
+  "ready": true,
   "image": "https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg"
 }
