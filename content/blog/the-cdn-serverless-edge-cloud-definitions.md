@@ -4,7 +4,7 @@ description: Different people use these terms in a lot of different ways. This m
 authors:
   - Ekene-Eze
 
-image: "https://res.cloudinary.com/kennyy/image/upload/v1644517485/cdn_edge_serverless_v45ths.png"
+image: "../content/blog/images/cdn.png"
 thumbnail: "v1644517485/cdn_edge_serverless_v45ths.png"
 date: 2022-01-27
 lastmod: 2022-01-27
