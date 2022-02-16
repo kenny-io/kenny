@@ -10,7 +10,7 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 const { schedule } = require("@netlify/functions");
 const axios = require("axios");
 
-exports.handler = schedule("* * * * *", async (event, context) => {
+exports.handler = schedule("@daily", async (event, context) => {
   let jokeData = "";
   const options = {
     method: "GET",
