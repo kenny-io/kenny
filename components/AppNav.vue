@@ -117,7 +117,7 @@
 export default {
   data() {
     return {
-      items: ["About", "Speaking", "Blogging", "Demos", "Uses"],
+      items: ["About", "Speaking", "Blogging", "Demos", "Uses", "Jokes"],
       showMobileDrawer: false
     };
   },

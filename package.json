@@ -9,9 +9,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@netlify/functions": "^1.0.0",
     "@nuxt/content": "^1.14.0",
     "@supabase/supabase-js": "^1.24.0",
     "@tailwindcss/typography": "^0.4.1",
+    "axios": "^0.26.0",
     "core-js": "^3.15.1",
     "daisyui": "^1.14.2",
     "highlight.js": "^11.2.0",

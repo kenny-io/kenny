@@ -11,3 +11,8 @@ command = "yarn generate"
 from = "/subscribe"
 to = "/.netlify/functions/subscribe"
 status = 200
+
+[[redirects]]
+from = "/api/get-joke"
+to = "/.netlify/functions/get-todays-joke"
+status = 200
