@@ -117,7 +117,15 @@
 export default {
   data() {
     return {
-      items: ["About", "Speaking", "Blogging", "Demos", "Uses", "Jokes"],
+      items: [
+        "About",
+        "Speaking",
+        "Blogging",
+        "Demos",
+        "Uses",
+        "Jokes",
+        "Mentoring"
+      ],
       showMobileDrawer: false
     };
   },
