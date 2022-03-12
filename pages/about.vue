@@ -8,8 +8,8 @@
         <p
           class="mb-10  opacity-70 text-base leading-relaxed xl:w-2/4 lg:w-3/4"
         >
-          I do developer experience at Netlify and I love working on projects
-          that help other software engineers. <br />
+          I'm a Senior Developer Experience Engineer at Netlify and I love
+          working on projects that help other software engineers. <br />
           <br />
           Passionate about sharing with the community and supporting the next
           generation of developers, I write about web development concepts and
