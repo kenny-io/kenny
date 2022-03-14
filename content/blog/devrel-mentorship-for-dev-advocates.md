@@ -60,7 +60,7 @@ Combining the experiences I've gained by working with different companies in dif
 
 ## Are you interested?
 
-If this sounds like a good opportunity to you, I've opened up applications for the first cohort of this program and you can currently [Apply Here](https://uoo376jx6hb.typeform.com/to/zVymBRsP). Selection is not guaranteed, seeing as I'm only looking for 5 people at this time so as not to over burden myself. To increase your chances, please be very intentional about your answers to
+If this sounds like a good opportunity to you, I've opened up applications for the first cohort of this program and you can currently [Apply Here](https://forms.gle/YDdUbbjfUMeq7tQR8). Selection is not guaranteed, seeing as I'm only looking for 5 people at this time so as not to over burden myself. To increase your chances, please be very intentional about your answers to
 
 1. "Why" you need this mentorship and
 2. "How" will you pay it forward
