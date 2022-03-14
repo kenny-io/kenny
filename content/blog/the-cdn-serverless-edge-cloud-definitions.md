@@ -17,7 +17,7 @@ tags:
   - serverless
 tweet: ""
 format: blog
-featured: true
+# featured: true
 ---
 
 If you've been around the "modern web" space, you would have come across some of these terms a couple of times. Each time seems to mean something a little different than the last. If you've stayed around long enough, you would have formed ideas that help you understand them, but if that's not the case, I'm specifically writing this post to explain them in as much simplicity as I can.

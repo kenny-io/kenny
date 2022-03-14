@@ -1,7 +1,7 @@
 <template>
   <footer class="text-primary-content h-90  body-font ">
     <div class="container px-5 py-8 mx-auto text-center">
-      <h1 class="flex text-lg text-3xl justify-center mb-10">
+      <h1 class="flex text-3xl justify-center mb-10">
         Get new content in your inbox
       </h1>
       <p
@@ -34,7 +34,7 @@
             <div class="w-32 h-1 rounded-full bg-yellow-500 inline-flex "></div>
           </div>
           <p class="opacity-70">
-            Ekene Eze © 2021 - Made with
+            Ekene Eze © 2022 - Made with
             <a href="https://www.nuxtjs.org">Nuxtjs</a> and
             <a href="https://www.netlify.com"> Netlify</a>
           </p>
