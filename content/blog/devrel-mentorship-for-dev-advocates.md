@@ -5,7 +5,7 @@ authors:
   - Ekene-Eze
 
 thumbnail: "v1647263928/mentoring_a4usah.png"
-image: "../content/blog/images/mentoring.png"
+image: "https://res.cloudinary.com/kennyy/image/upload/v1647263928/mentoring_a4usah.png"
 date: 2022-03-14
 lastmod: 2022-03-14
 topics:
