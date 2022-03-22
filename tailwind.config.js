@@ -16,6 +16,7 @@ module.exports = {
           "primary-focus": "#fa9604",
           "primary-content": "#000000",
           background: "#fff",
+          "card-bg": "#000814",
           "secondary-content": "#ffffff",
           accent: "#FEA920",
           "accent-focus": "#fa9604",
@@ -28,6 +29,8 @@ module.exports = {
           primary: "#FEA920",
           "primary-focus": "#fa9604",
           "primary-content": "#ffffff",
+
+          "card-bg": "#fff",
           background: "#000814",
           "secondary-content": "#ffffff",
           accent: "#FEA920",
