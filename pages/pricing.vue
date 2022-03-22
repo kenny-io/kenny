@@ -23,7 +23,7 @@
               </h3>
               <p class="flex items-baseline mt-4 text-neutral-600">
                 <span class="text-5xl font-extrabold tracking-tight"
-                  >$ {{ price }}</span
+                  >$ 1,500</span
                 >
                 <span class="ml-1 text-xl font-semibold">/video</span>
               </p>
