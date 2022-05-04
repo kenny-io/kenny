@@ -15,7 +15,7 @@ tags:
   - mentorship
 tweet: ""
 format: blog
-featured: true
+featured: false
 ---
 
 Hello friends, if you're reading this, I have some exciting news to share. Today, I'm happy to announce that I'll be taking on 5 people to mentor and help upscale their careers in DevRel. For the past 5 years, I've been actively working in the DevRel space. As a result, I intend to use the experience and expertise I've gained over the years to help a couple more people take the next step.
