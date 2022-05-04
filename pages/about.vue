@@ -8,17 +8,25 @@
         <p
           class="mb-10  opacity-70 text-base leading-relaxed xl:w-2/4 lg:w-3/4"
         >
-          I'm a Senior Developer Experience Engineer at Netlify and I love
-          working on projects that help other software engineers. <br />
+          Okay here are couple more things about me:
           <br />
-          Passionate about sharing with the community and supporting the next
-          generation of developers, I write about web development concepts and
-          best practices, create courses, present workshops and speak at
-          conferences.
+          <br />
+          In addition to my work, I have a
+          <a
+            href="https://www.youtube.com/c/EkeneEze"
+            class="tex-primary-content underline"
+            >YouTube Channel
+          </a>
+          where I share my thoughts and experiences on building the modern web
+          with the Jamstack. I also run a DevRel mentorship program where I help
+          other intending developer advocates get started with DevRel. When I'm
+          not doing either of those things, you'll probably find me traveling or
+          hanging out with friends and family.
 
           <br />
           <br />
-          Here are some of the technologies I like to play with:
+          Oh about working and doing web things, here are some of the
+          technologies I like to play with:
         </p>
 
         <div class="group">

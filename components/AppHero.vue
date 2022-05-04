@@ -26,11 +26,18 @@
         <p
           class="mb-10 mt-3 text-primary-content opacity-70 text-base leading-relaxed  "
         >
-          I'm a Senior Developer Experience Engineer at Netlify and I love
-          working on projects that help other software engineers. Passionate
-          about sharing with the community and supporting the next generation of
-          developers, I write about web development concepts and best practices,
-          create courses, present workshops and speak at conferences.
+          I work at
+          <a
+            role="listitem"
+            class="underline text-primary-content"
+            href="https://plasmic.app"
+            target="_blank"
+            >Plasmic
+          </a>
+          as the Director of Developer Experience and I love executing projects
+          that help other software engineers. Passionate about sharing with the
+          community, I often write, present workshops, create courses, and speak
+          at conferences about web development concepts and best practices.
         </p>
         <div role="list" class="group">
           <a
