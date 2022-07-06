@@ -13,7 +13,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Kenny is a Software Engineer, Content creator and Developer Experience Engineer at Netlify. Get insights into his work, projects and more on this site..."
+          "Ekene is a Software Engineer, Content Creator and the Founding Director of Developer Experience at Plasmic. Get insights into his work, projects and more on this site..."
       },
       {
         hid: "og:image",
