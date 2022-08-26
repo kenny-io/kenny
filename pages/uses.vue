@@ -22,12 +22,31 @@ export default {
     title: "Ekene Eze | Uses",
     meta: [
       {
+        hid: "uses",
+        name: "description",
+        content: "A list of tools I use daily for work and productivity"
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content:
+          "https://res.cloudinary.com/kennyy/image/upload/v1634571746/blogging/og.png"
+      },
+      {
+        hid: "twitter:card",
+        name: "twitter:card",
+        content: "summary_large_image"
+      }
+    ],
+    meta: [
+      {
         hid: "description",
         name: "uses",
         content: "A list of tools I use daily for work and productivity"
       }
     ]
   },
+  
   async asyncData({ $content }) {
     const page = await $content("uses").fetch();
     return { page };
