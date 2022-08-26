@@ -4,11 +4,11 @@ I get asked often about my work set up and I've seen other people share their to
 
 #### Primary Laptop:
 
-[MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports) 2.3 GHz Quad-Core Intel Core i7 32 GB 3733 MHz LPDDR4X](#)
+[MacBook Pro (16-inch, 2021) 1TB SSD Storage¹ Apple M1 Max](https://www.apple.com/ae/shop/buy-mac/macbook-pro/16-inch-space-gray-10-core-cpu-32-core-gpu-1tb)
 
 #### Monitor:
 
-[LG LG-27UL850-W 27 inch IPS LED UHD Monitor With 60Hz, AMD FreeSync and DisplayPort HDMI VGA Black/Silver (x2)](https://www.noon.com/uae-en/lg-27ul850-w-27-inch-ips-led-uhd-monitor-with-60hz-amd-freesync-and-displayport-hdmi-vga-black-silver/N37410693A/p?o=d0d813e1b5f7dd3f)
+[LG-27UL850-W 27 inch IPS LED UHD Monitor With 60Hz, AMD FreeSync and DisplayPort HDMI VGA Black/Silver (x2)](https://www.noon.com/uae-en/lg-27ul850-w-27-inch-ips-led-uhd-monitor-with-60hz-amd-freesync-and-displayport-hdmi-vga-black-silver/N37410693A/p?o=d0d813e1b5f7dd3f)
 
 #### Mic:
 
@@ -26,13 +26,25 @@ I get asked often about my work set up and I've seen other people share their to
 
 [Cloudlifter CL-1 Mic Activator](https://www.noon.com/uae-en/cloudlifter-mic-activator-cl-1-blue/N39032409A/p?o=bc5d8fbf7fed277d)
 
+#### Headset
+
+[Apple Airpod Max](https://amzn.eu/d/hC3HDFg)
+
 #### Video:
+
+[Logitech StreamCam for Creators](https://amzn.eu/d/4XLk8Ww)
 
 [Logitech C922 Pro Stream Webcam.](https://www.amazon.ae/Logitech-Hyperfast-Streaming-correction-Autofocus/dp/B01L6L52K4/ref=sr_1_1?dchild=1&keywords=logitech+c922+pro+stream+webcam&qid=1634744008&sr=8-1)
 
-#### Mechanical Keyboard:
+#### Keyboards:
 
 [Keychron k8 Wireless Mechanical keyboard](https://www.amazon.ae/Keychron-Wireless-Mechanical-Gaming-Keyboard/dp/B08V1B8NMN/ref=sr_1_1_sspa?dchild=1&keywords=Keychron%2Bk8%2BWireless%2BMechanical%2Bkeyboard&qid=1634744180&sr=8-1-spons&smid=A1C4DXB5RJOLLI&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySUhBWks0QU1EVFNZJmVuY3J5cHRlZElkPUEwNzc0NTQxQUExMlQ1V1E4R1M3JmVuY3J5cHRlZEFkSWQ9QTAzODg5ODUyT1FISFlRQUQ1OERKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1)
+
+[Apple Magic Keyboard](https://amzn.eu/d/5PniGMz)
+
+#### Lighting
+
+[LED Streaming Key Light Desktop](https://amzn.eu/d/gUykjXw)
 
 #### Mouse:
 
