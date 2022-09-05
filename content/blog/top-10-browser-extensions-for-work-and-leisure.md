@@ -6,8 +6,8 @@ authors:
 
 image: "../content/blog/images/browser-extension.png"
 thumbnail: "v1662369806/browser-extension_cg7tht.png"
-date: 2022-01-27
-lastmod: 2022-01-27
+date: 2022-09-05
+lastmod: 2022-09-05
 topics:
   - tutorials
 tags:
@@ -93,4 +93,4 @@ The custom cursor extension allows you to customize your cursor to different sty
 
 ## Conclusion
 
-Well, there goes my top 10 Chrome extensions. You can find some more information about the stuff I work with on the [Uses Page of my website](https://kenny.engineer/Uses). Did I miss any cool one? Which ones are your favorite? Let me know in the comments. 😅
+Well, there goes my top 10 Chrome extensions. You can find some more information about the stuff I work with on my [Uses Page](https://kenny.engineer/Uses).
