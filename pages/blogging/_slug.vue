@@ -24,6 +24,7 @@ export default {
   head() {
     return {
       title: this.post.title,
+
       meta: [
         ...this.meta,
         {

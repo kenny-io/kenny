@@ -4,7 +4,7 @@ description: Browser extensions make it easier and enhances our experiences as w
 authors:
   - Ekene-Eze
 
-image: "../content/blog/images/browser-extension.png"
+image: "https://res.cloudinary.com/kennyy/image/upload/v1662370959/browser-extension-2_mexlzl.png"
 thumbnail: "v1662370959/browser-extension-2_mexlzl.png"
 date: 2022-09-05
 lastmod: 2022-09-05
