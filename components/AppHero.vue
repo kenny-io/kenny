@@ -26,18 +26,12 @@
         <p
           class="mb-10 mt-3 text-primary-content opacity-70 text-base leading-relaxed  "
         >
-          I work at
-          <a
-            role="listitem"
-            class="underline text-primary-content"
-            href="https://plasmic.app"
-            target="_blank"
-            >Plasmic
-          </a>
-          as the Director of Developer Experience and I love executing projects
-          that help other software engineers. Passionate about sharing with the
-          community, I often write, present workshops, create courses, and speak
-          at conferences about web development concepts and best practices.
+          I'm a Developer Advocate with over 5 years experience, working in
+          different companies and leading DevRel teams in others. I love
+          creating content and sharing my knowledge with the community in forms
+          of blog posts, video tutorials, livestreams, podcasts and speaking at
+          conferences. If you're interested in working with me, in any capacity,
+          do reach out via any of the links below 👇🏽
         </p>
         <div role="list" class="group">
           <a
@@ -55,8 +49,8 @@
           <a
             role="listitem"
             class="btn text-primary hover:bg-accent hover:text-secondary"
-            href="https://polywork.com/kenny_io"
-            >Polywork
+            href="https://www.linkedin.com/in/ekeneeze/"
+            >Linkedin
           </a>
           <a
             role="listitem"
