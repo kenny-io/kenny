@@ -7,13 +7,13 @@
 <script>
 export default {
   head: {
-    title: "Ekene Eze | Founding Director of Developer Experience",
+    title: "Ekene Eze | Developer Advocate and Content Creator",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Ekene is a Software Engineer, Content Creator and the Founding Director of Developer Experience at Plasmic. Get insights into his work, projects and more on this site..."
+          "Ekene is a Software Engineer, Content Creator and Developer Advocate. Get insights into his work, projects and more on this site..."
       },
       {
         hid: "og:image",

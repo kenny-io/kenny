@@ -18,10 +18,20 @@
             >YouTube Channel
           </a>
           where I share my thoughts and experiences on building the modern web
-          with the Jamstack. I also run a DevRel mentorship program where I help
-          other intending developer advocates get started with DevRel. When I'm
-          not doing either of those things, you'll probably find me traveling or
-          hanging out with friends and family.
+          with the Jamstack and other web development concepts.
+          <br />
+          <br />
+          I also run a
+          <span
+            ><a
+              class="underline tex-primary-content"
+              href="https://www.dxmentorship.com/"
+              >DevRel mentorship program</a
+            ></span
+          >
+          where I help other intending developer advocates get started with
+          DevRel. When I'm not doing either of those things, you'll probably
+          find me traveling or hanging out with friends and family.
 
           <br />
           <br />
@@ -73,7 +83,22 @@ export default {
   },
   data() {
     return {
-      techs: ["ES6", "Jamstack", "Vue", "Nuxt", "Serverless", "Supabase"]
+      techs: [
+        "JavaScript",
+        "Jamstack",
+        "Vue",
+        "React",
+        "Serverless",
+        "Supabase",
+        "Nextjs",
+        "Tailwind",
+        "Payments",
+        "Headless CMSs",
+        "GraphQL",
+        "Nodejs",
+        "Nuxtjs",
+        "etc"
+      ]
     };
   }
 };
