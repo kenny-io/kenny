@@ -5,9 +5,7 @@
         <div class="hero-overlay conf"></div>
         <div class="text-center hero-content">
           <div class="max-w-md mt-5">
-            <h1 class="mb-5 text-5xl font-bold text-accent mt-8">
-              Speaking
-            </h1>
+            <h1 class="mb-5 text-5xl font-bold text-accent mt-8">Speaking</h1>
             <p class="mb-5 text-secondary-content opacity-80">
               I've spoken at ...hmmmm, I don't actually have a number :) But I
               love any opportunity to share with the community so if you have an
@@ -24,7 +22,7 @@
         </div>
       </div>
     </section>
-    <div class="mx-auto mt-16 align-center ">
+    <div class="mx-auto mt-16 align-center">
       <div class="sm:text-center">
         <div class="flex justify-center">
           <div class="w-32 h-1 rounded-full bg-accent-focus inline-flex"></div>
@@ -40,12 +38,12 @@
             @input="$fetch"
             v-model="query"
             placeholder="Search Talks"
-            class=" pr-16 input input-bordered border-2 border-gray-300 text-gray-300"
+            class="pr-16 input input-bordered border-2 border-gray-300 text-gray-300"
           />
         </div>
       </div>
     </form>
-    <section class=" body-font">
+    <section class="body-font">
       <div class="container px-5 py-12 mx-auto">
         <div class="flex flex-wrap -m-4">
           <div v-for="talk in talks" :key="talk.title" class="p-4 md:w-1/3">
@@ -63,8 +61,8 @@
                   />
                 </figure>
                 <div class="justify-end card-body text-primary-content">
-                  <div class="flex  space-x-4 py-2">
-                    <h2 class="card-title ">{{ talk.conference }}</h2>
+                  <div class="flex space-x-4 py-2">
+                    <h2 class="card-title">{{ talk.conference }}</h2>
 
                     <span
                       v-if="talk.status === 'upcoming'"
@@ -104,19 +102,19 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: 'A list of Ekene Eze"s Conference talks'
-      }
-    ]
+        content: 'A list of Ekene Eze"s Conference talks',
+      },
+    ],
   },
   data() {
     return {
       talks: "",
-      query: ""
+      query: "",
     };
   },
   async fetch() {
     this.talks = await this.$content("talks")
-      .sortBy("date", "desc")
+      .sortBy("date", "asc")
       .search(this.query)
       .fetch();
   },
@@ -124,7 +122,7 @@ export default {
     // truncate the description
     shortDescription(description) {
       return description.toString().substring(0, 100) + "...";
-    }
-  }
+    },
+  },
 };
 </script>
