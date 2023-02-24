@@ -1,0 +1,23 @@
+{
+  "conference": "CityJS conference Lagos",
+  "title": "Social Preview Automation with Dynamic images in #NextJS",
+  "description": "A quick look at developer relations for new entrants to better understand the role, relevant skills, possible careers, and the benefits of being a developer advocate.",
+  "date": "2022-10-22",
+  "country": "Lagos, Nigeria",
+  "site": "https://twitter.com/cityjsconf/status/1583805639284752385?s=20",
+  "category": [
+    {
+      "id": "1",
+      "name": "nextjs"
+    },
+    {
+      "id": "2",
+      "name": "devrel"
+    }
+  ],
+  "video": "",
+  "slides": "",
+  "status": "done",
+  "ready": false,
+  "image": "https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg"
+}
