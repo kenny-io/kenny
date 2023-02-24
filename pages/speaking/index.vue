@@ -114,7 +114,7 @@ export default {
   },
   async fetch() {
     this.talks = await this.$content("talks")
-      .sortBy("date", "asc")
+      .sortBy("date", "desc")
       .search(this.query)
       .fetch();
   },
