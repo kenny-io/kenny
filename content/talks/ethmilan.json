@@ -1,23 +1,27 @@
 {
-  "conference": "Infobip Shift Miami",
-  "title": "Writing Documentations That Don’t Suck!",
+  "conference": "EthMilan",
+  "title": "Token based access Control on the Web",
   "description": "Documentation is a critical part of software development, yet it is often overlooked or undervalued.",
-  "date": "2023-05-23",
-  "country": "Miami",
-  "site": "https://shift.infobip.com/us/",
+  "date": "2023-10-05",
+  "country": "Milan",
+  "site": "https://www.ethmilan.xyz/",
   "category": [
     {
       "id": "1",
-      "name": "api"
+      "name": "web3"
     },
     {
       "id": "2",
       "name": "devrel"
+    },
+    {
+      "id": "3",
+      "name": "scalingethereum"
     }
   ],
   "video": "",
   "slides": "",
-  "status": "done",
+  "status": "upcoming",
   "ready": false,
   "image": "https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg"
 }
