@@ -1,7 +1,7 @@
 {
   "conference": "EthMilan",
   "title": "Token based access Control on the Web",
-  "description": "Documentation is a critical part of software development, yet it is often overlooked or undervalued.",
+  "description": "Token-based access control on the web is a security mechanism that allows users to access resources and services based on the possession of a token.",
   "date": "2023-10-05",
   "country": "Milan",
   "site": "https://www.ethmilan.xyz/",
