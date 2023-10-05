@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const Top6ThingsYouCanDoWithNetlifyDevIn2021 = "{\"parsed\":{\"_path\":\"/externals/top-6-things-you-can-do-with-netlify-dev-in-2021\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Top 6 things you can do with Netlify Dev in 2021\",\"description\":\"Learn how to make the most of Netlify Dev with this top 6 tips for faster development.\",\"url\":\"https://www.netlify.com/blog/2021/08/16/top-6-things-you-can-do-with-netlify-dev-in-2021/\",\"category\":\"netlify\",\"date\":\"2021/08/16\",\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1695816371/AI_Generated_Image_1_ztbm5c.jpg\",\"tags\":[\"netlify\",\"jamstack\",\"webdev\",\"productivity\"],\"_id\":\"content:externals:Top-6-things-you-can-do-with-Netlify-Dev-in-2021.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/Top-6-things-you-can-do-with-Netlify-Dev-in-2021.json\",\"_extension\":\"json\"},\"hash\":\"unOEKizMuC\"}";
+
+export { Top6ThingsYouCanDoWithNetlifyDevIn2021 as default };
+//# sourceMappingURL=Top-6-things-you-can-do-with-Netlify-Dev-in-2021.mjs.map

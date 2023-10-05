@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const whyYouShouldUseRefsSparinglyInProduction = "{\"parsed\":{\"_path\":\"/externals/why-you-should-use-refs-sparingly-in-production\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Why you should use refs sparingly in production\",\"description\":\"A general rule of thumb is to consider how possible it'll be to do exactly what you want to do with props and state...\",\"url\":\"https://blog.logrocket.com/why-you-should-use-refs-sparingly-in-production/\",\"category\":\"refs\",\"date\":\"2020/02/28\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2020/02/reactrefs.png\",\"tags\":[\"react\",\"refs\",\"webdev\"],\"_id\":\"content:externals:why-you-should-use-refs-sparingly-in-production.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/why-you-should-use-refs-sparingly-in-production.json\",\"_extension\":\"json\"},\"hash\":\"08SBTI9RSB\"}";
+
+export { whyYouShouldUseRefsSparinglyInProduction as default };
+//# sourceMappingURL=why-you-should-use-refs-sparingly-in-production.mjs.map

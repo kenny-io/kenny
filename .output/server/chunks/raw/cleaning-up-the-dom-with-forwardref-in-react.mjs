@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const cleaningUpTheDomWithForwardrefInReact = "{\"parsed\":{\"_path\":\"/externals/cleaning-up-the-dom-with-forwardref-in-react\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Using forwardRef in React to clean up the DOM\",\"description\":\"In this tutorial, we'll review the concept of forwarding refs in React and how it helps us manage interactions with the DOM.\",\"url\":\"https://blog.logrocket.com/cleaning-up-the-dom-with-forwardref-in-react/\",\"category\":\"forwardRef\",\"date\":\"2021/03/18\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2021/03/use-forwardref-react.png\",\"tags\":[\"react\",\"forwardRef\"],\"_id\":\"content:externals:cleaning-up-the-dom-with-forwardref-in-react.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/cleaning-up-the-dom-with-forwardref-in-react.json\",\"_extension\":\"json\"},\"hash\":\"4JpiX9tUcZ\"}";
+
+export { cleaningUpTheDomWithForwardrefInReact as default };
+//# sourceMappingURL=cleaning-up-the-dom-with-forwardref-in-react.mjs.map

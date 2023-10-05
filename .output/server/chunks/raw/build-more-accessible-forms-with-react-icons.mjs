@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const buildMoreAccessibleFormsWithReactIcons = "{\"parsed\":{\"_path\":\"/externals/build-more-accessible-forms-with-react-icons\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Build more accessible forms with React Icons\",\"description\":\"The goal of this post is to help you understand how to build more accessible React forms by using the popular react-icons library.\",\"url\":\"https://blog.logrocket.com/build-more-accessible-forms-with-react-icons/\",\"category\":\"forms\",\"date\":\"2020/01/24\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2020/01/reacticons.png\",\"tags\":[\"react\",\"forms\",\"accessibility\"],\"_id\":\"content:externals:build-more-accessible-forms-with-react-icons.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/build-more-accessible-forms-with-react-icons.json\",\"_extension\":\"json\"},\"hash\":\"QeGvmOYjax\"}";
+
+export { buildMoreAccessibleFormsWithReactIcons as default };
+//# sourceMappingURL=build-more-accessible-forms-with-react-icons.mjs.map

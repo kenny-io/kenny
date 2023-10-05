@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const testingReactApplicationsIn2019 = "{\"parsed\":{\"_path\":\"/externals/testing-react-applications-in-2019\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Testing React applications in 2019\",\"description\":\"While testing can be a very controversial concept, something we can all agree on is testing is a very critical aspect of any product...\",\"url\":\"https://blog.logrocket.com/testing-react-applications-in-2019/\",\"category\":\"Testing\",\"date\":\"2019/09/19\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2019/09/reacttesting.png\",\"tags\":[\"react\",\"testing\",\"jest\",\"enzyme\",\"cypress\"],\"_id\":\"content:externals:testing-react-applications-in-2019.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/testing-react-applications-in-2019.json\",\"_extension\":\"json\"},\"hash\":\"FMgtp537KY\"}";
+
+export { testingReactApplicationsIn2019 as default };
+//# sourceMappingURL=testing-react-applications-in-2019.mjs.map

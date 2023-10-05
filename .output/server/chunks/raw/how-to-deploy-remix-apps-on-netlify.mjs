@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const howToDeployRemixAppsOnNetlify = "{\"parsed\":{\"_path\":\"/externals/how-to-deploy-remix-apps-on-netlify\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"How to Deploy Remix Apps on Netlify\",\"description\":\"In this post, allow me to show you the fastest, quickest and smoothest way to deploy your Remix apps on Netlify.\",\"url\":\"https://www.netlify.com/blog/how-to-deploy-remix-apps-on-netlify\",\"category\":\"remix deploy\",\"date\":\"2022/03/10\",\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1695921468/AI_Generated_Image_9_sx67m8.jpg\",\"tags\":[\"remix\",\"webdev\",\"netlify\"],\"_id\":\"content:externals:how-to-deploy-remix-apps-on-netlify.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/how-to-deploy-remix-apps-on-netlify.json\",\"_extension\":\"json\"},\"hash\":\"0GPWoRH7l7\"}";
+
+export { howToDeployRemixAppsOnNetlify as default };
+//# sourceMappingURL=how-to-deploy-remix-apps-on-netlify.mjs.map

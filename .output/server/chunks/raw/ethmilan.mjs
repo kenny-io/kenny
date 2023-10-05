@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const ethmilan = "{\"parsed\":{\"_path\":\"/talks/ethmilan\",\"_dir\":\"talks\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"conference\":\"EthMilan\",\"title\":\"Token based access Control on the Web\",\"description\":\"Token-based access control on the web is a security mechanism that allows users to access resources and services based on the possession of a token.\",\"date\":\"2023-10-05\",\"country\":\"Milan\",\"site\":\"https://www.ethmilan.xyz/\",\"category\":[{\"id\":\"1\",\"name\":\"web3\"},{\"id\":\"2\",\"name\":\"devrel\"},{\"id\":\"3\",\"name\":\"scalingethereum\"}],\"video\":\"\",\"slides\":\"\",\"status\":\"upcoming\",\"ready\":false,\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg\",\"_id\":\"content:talks:ethmilan.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"talks/ethmilan.json\",\"_extension\":\"json\"},\"hash\":\"3D5t3isz47\"}";
+
+export { ethmilan as default };
+//# sourceMappingURL=ethmilan.mjs.map

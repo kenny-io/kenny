@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const feedbackInTheWorkplaceGettingItRight = "{\"parsed\":{\"_path\":\"/externals/feedback-in-the-workplace-getting-it-right\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Feedback in the workplace - Getting it right\",\"description\":\"Providing clear, actionable, and direct feedback requires intentional effort to exert the intended effect on the receiver. Let's learn how!\",\"url\":\"https://kenny-io.hashnode.dev/feedback-in-the-workplace-getting-it-right\",\"category\":\"workculture\",\"date\":\"2022/07/11\",\"image\":\"https://cdn.hashnode.com/res/hashnode/image/upload/v1657472223635/xRsg-qC0-.jpg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp\",\"tags\":[\"productivity\",\"workplace\",\"feedback\"],\"_id\":\"content:externals:feedback-in-the-workplace-getting-it-right.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/feedback-in-the-workplace-getting-it-right.json\",\"_extension\":\"json\"},\"hash\":\"VvQ6xKHFpD\"}";
+
+export { feedbackInTheWorkplaceGettingItRight as default };
+//# sourceMappingURL=feedback-in-the-workplace-getting-it-right2.mjs.map

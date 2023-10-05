@@ -3,5 +3,7 @@
   "description": "In this tutorial, we'll review the concept of forwarding refs in React and how it helps us manage interactions with the DOM.",
   "url": "https://blog.logrocket.com/cleaning-up-the-dom-with-forwardref-in-react/",
   "category": "forwardRef",
-  "date": "2021/03/18"
+  "date": "2021/03/18",
+  "image": "https://blog.logrocket.com/wp-content/uploads/2021/03/use-forwardref-react.png",
+  "tags": ["react", "forwardRef"]
 }

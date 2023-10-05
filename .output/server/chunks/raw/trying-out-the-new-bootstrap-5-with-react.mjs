@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const tryingOutTheNewBootstrap5WithReact = "{\"parsed\":{\"_path\":\"/externals/trying-out-the-new-bootstrap-5-with-react\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Trying out the new Bootstrap 5 with React\",\"description\":\"In this post, we'll look at how to get started with Bootstrap 5 and how we can use the new version in a React...\",\"url\":\"https://blog.logrocket.com/trying-out-the-new-bootstrap-5-with-react/\",\"category\":\"bootstrap 5\",\"date\":\"2020/08/21\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2020/08/bootstrap.png\",\"tags\":[\"bootstrap\",\"react\",\"logrocket\"],\"_id\":\"content:externals:trying-out-the-new-bootstrap-5-with-react.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/trying-out-the-new-bootstrap-5-with-react.json\",\"_extension\":\"json\"},\"hash\":\"WN9fz9BeNs\"}";
+
+export { tryingOutTheNewBootstrap5WithReact as default };
+//# sourceMappingURL=trying-out-the-new-bootstrap-5-with-react.mjs.map

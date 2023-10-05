@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const usefulToolsAndTechniquesToMinifyYourCss = "{\"parsed\":{\"_path\":\"/externals/useful-tools-and-techniques-to-minify-your-css\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Useful tools and techniques to minify your CSS\",\"description\":\"Faster page speed, better performance, overall improved user experience — these are the advantages of minifying your CSS files. This may seem obvious, yet it remains...\",\"url\":\"https://blog.logrocket.com/useful-tools-and-techniques-to-minify-your-css-bee9b539e074/\",\"category\":\"styling\",\"date\":\"2019/05/30\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2019/05/useful-tools-minify-css.jpg\",\"tags\":[\"css\",\"logrocket\",\"performance\"],\"_id\":\"content:externals:useful-tools-and-techniques-to-minify-your-css.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/useful-tools-and-techniques-to-minify-your-css.json\",\"_extension\":\"json\"},\"hash\":\"7hX6CYvP3k\"}";
+
+export { usefulToolsAndTechniquesToMinifyYourCss as default };
+//# sourceMappingURL=useful-tools-and-techniques-to-minify-your-css.mjs.map

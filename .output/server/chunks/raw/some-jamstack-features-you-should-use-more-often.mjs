@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const someJamstackFeaturesYouShouldUseMoreOften = "{\"parsed\":{\"_path\":\"/externals/some-jamstack-features-you-should-use-more-often\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Some Jamstack features you should use more often\",\"description\":\"Learn some need to know Jamstack features that will help you and your team get the best out of the Jamstack.\",\"url\":\"https://www.netlify.com/blog/2021/06/17/some-jamstack-features-you-should-use-more-often/\",\"category\":\"jamstack\",\"date\":\"2021/06/17\",\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1696276660/AI_Generated_Image_20_btfrty.jpg\",\"tags\":[\"jamstack\",\"netlify\",\"web\"],\"_id\":\"content:externals:some-jamstack-features-you-should-use-more-often.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/some-jamstack-features-you-should-use-more-often.json\",\"_extension\":\"json\"},\"hash\":\"0N9y7O7y5z\"}";
+
+export { someJamstackFeaturesYouShouldUseMoreOften as default };
+//# sourceMappingURL=some-jamstack-features-you-should-use-more-often.mjs.map

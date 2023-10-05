@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const powerYourSitesWithApisAndBuildHooks = "{\"parsed\":{\"_path\":\"/externals/power-your-sites-with-apis-and-build-hooks\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Power your sites with APIs and Build Hooks\",\"description\":\"Combine 3rd party tools and services with your Netlify site using build hooks\",\"url\":\"https://www.netlify.com/blog/2021/12/22/power-your-site-with-apis-and-build-hooks/\",\"category\":\"build-hooks\",\"date\":\"2021/12/22\",\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1696276744/AI_Generated_Image_25_auybkp.jpg\",\"tags\":[\"api\",\"webhooks\",\"automation\",\"netlify\"],\"_id\":\"content:externals:power-your-sites-with-apis-and-build-hooks.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/power-your-sites-with-apis-and-build-hooks.json\",\"_extension\":\"json\"},\"hash\":\"PcWdNyMKwP\"}";
+
+export { powerYourSitesWithApisAndBuildHooks as default };
+//# sourceMappingURL=power-your-sites-with-apis-and-build-hooks.mjs.map

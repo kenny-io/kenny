@@ -1,67 +1,28 @@
-module.exports = {
-  purge: {
-    content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.md"],
-    options: {
-      safelist: [/data-theme$/]
-    }
-  },
-  // darkMode: "class", // or 'media' or 'class'
-  daisyui: {
-    styled: true,
-    themes: [
-      "kennydark",
-      {
-        kennylight: {
-          primary: "#FEA920",
-          "primary-focus": "#fa9604",
-          "primary-content": "#000000",
-          background: "#fff",
-          "card-bg": "#000814",
-          "secondary-content": "#ffffff",
-          accent: "#FEA920",
-          "accent-focus": "#fa9604",
-          "accent-content": "#000",
-          "menu-stroke": "#000"
-        }
-      },
-      {
-        kennydark: {
-          primary: "#FEA920",
-          "primary-focus": "#fa9604",
-          "primary-content": "#ffffff",
+/** @type {import('tailwindcss').Config} */
 
-          "card-bg": "#fff",
-          background: "#000814",
-          "secondary-content": "#ffffff",
-          accent: "#FEA920",
-          "accent-focus": "#fa9604",
-          "accent-content": "#000",
-          info: "#2094f3",
-          success: "#009485",
-          warning: "#ff9900",
-          error: "#ff5724",
-          "menu-stroke": "#fff"
+module.exports = {
+  content: [],
+  theme: {
+    screens: {
+      xxl: '1728px',
+      xl: '1440px',
+      lg: '976px',
+      md: '768px',
+      sm: '565px',
+    },
+    extend: {
+      fontFamily: {
+        'suisseIntl': ["'suisse-intl'"],
+        'suisseIntlCond': ["'suisse-intl-cond'"],
+        'suisseIntlWorks': ["'suisse-intl-works'"]
+      },
+      colors: {
+        gray: {
+          300: '#858585'
         }
       }
-    ],
-    base: true,
-    utils: true,
-    logs: true,
-    rtl: false
+    },
   },
-  theme: {
-    extend: {
-      // colors: {
-      //   red: "#f00",
-      //   blue: "#00f"
-      // },
-      // linearBorderGradients: theme => ({
-      //   colors: theme("colors")
-      // })
-    }
-  },
-  variants: {
-    extend: {}
-  },
-  plugins: [require("daisyui"), require("@tailwindcss/typography")]
-};
+  plugins: [],
+}
+

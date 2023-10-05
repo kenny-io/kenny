@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const jamstackRenderingPatternsTheEvolution = "{\"parsed\":{\"_path\":\"/externals/jamstack-rendering-patterns-the-evolution\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Jamstack Rendering Patterns: The Evolution\",\"description\":\"In this article, I share my thoughts about the direction of the web in 2022, and what solutions we can expect to see come up in the ecosystem to significantly improve the Jamstack experience.\",\"url\":\"https://www.smashingmagazine.com/2022/04/jamstack-rendering-patterns-evolution/\",\"category\":\"Jamstack\",\"date\":\"2022/04/19\",\"_id\":\"content:externals:jamstack-rendering-patterns-the-evolution.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/jamstack-rendering-patterns-the-evolution.json\",\"_extension\":\"json\"},\"hash\":\"LOy12rwOZr\"}";
+
+export { jamstackRenderingPatternsTheEvolution as default };
+//# sourceMappingURL=jamstack-rendering-patterns-the-evolution.mjs.map

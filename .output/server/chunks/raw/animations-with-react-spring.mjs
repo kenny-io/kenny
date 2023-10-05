@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const animationsWithReactSpring = "{\"parsed\":{\"_path\":\"/externals/animations-with-react-spring\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Using React Spring for animation: Context and examples\",\"description\":\"Looking for examples of how to implement animations without causing a major performance bottleneck? React Spring may be what you need.\",\"url\":\"https://blog.logrocket.com/animations-with-react-spring/\",\"tags\":[\"animations\",\"react\",\"webdev\"],\"isExternal\":true,\"date\":\"2021/01/07\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2019/08/implementing_animations_using_react_spring_web.png\",\"_id\":\"content:externals:animations-with-react-spring.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/animations-with-react-spring.json\",\"_extension\":\"json\"},\"hash\":\"hZH8PRczeQ\"}";
+
+export { animationsWithReactSpring as default };
+//# sourceMappingURL=animations-with-react-spring.mjs.map

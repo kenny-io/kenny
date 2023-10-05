@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const positioningElementsWithVue3Teleport = "{\"parsed\":{\"_path\":\"/externals/positioning-elements-with-vue-3-teleport\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Positioning elements with Vue 3 Teleport\",\"description\":\"In this tutorial, we'll go over the new Vue 3 Teleport feature and also demonstrate an example use case with a modal.\",\"url\":\"https://blog.logrocket.com/positioning-elements-with-vue-3-teleport/\",\"category\":\"Vue 3 teleport\",\"date\":\"2020/11/05\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2020/11/vue3teleport.png\",\"tags\":[\"vue\",\"teleport\",\"logrocket\"],\"_id\":\"content:externals:positioning-elements-with-vue-3-teleport.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/positioning-elements-with-vue-3-teleport.json\",\"_extension\":\"json\"},\"hash\":\"1xiBfHKZe1\"}";
+
+export { positioningElementsWithVue3Teleport as default };
+//# sourceMappingURL=positioning-elements-with-vue-3-teleport.mjs.map

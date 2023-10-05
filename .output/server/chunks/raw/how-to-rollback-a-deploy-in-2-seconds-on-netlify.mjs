@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const howToRollbackADeployIn2SecondsOnNetlify = "{\"parsed\":{\"_path\":\"/externals/how-to-rollback-a-deploy-in-2-seconds-on-netlify\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"How to rollback a deploy in 2 seconds on Netlify\",\"description\":\"Learn how to rollback to a previous stable deploy on Netlify\",\"url\":\"https://www.netlify.com/blog/2021/07/12/how-to-rollback-a-deploy-in-2-seconds-on-netlify/\",\"category\":\"netlify\",\"date\":\"2021/07/12\",\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1696276744/AI_Generated_Image_25_auybkp.jpg\",\"tags\":[\"netlify\",\"deploy\",\"rollback\"],\"_id\":\"content:externals:how-to-rollback-a-deploy-in-2-seconds-on-netlify.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/how-to-rollback-a-deploy-in-2-seconds-on-netlify.json\",\"_extension\":\"json\"},\"hash\":\"tYd6npCg9b\"}";
+
+export { howToRollbackADeployIn2SecondsOnNetlify as default };
+//# sourceMappingURL=how-to-rollback-a-deploy-in-2-seconds-on-netlify.mjs.map

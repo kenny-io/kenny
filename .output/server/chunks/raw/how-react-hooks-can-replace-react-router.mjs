@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const howReactHooksCanReplaceReactRouter = "{\"parsed\":{\"_path\":\"/externals/how-react-hooks-can-replace-react-router\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"How React Hooks can replace React Router\",\"description\":\"Looking for an alternative form of routing in your React projects? Read more to find out how React Hooks can replace React Router.\",\"url\":\"https://blog.logrocket.com/how-react-hooks-can-replace-react-router/\",\"category\":\"routing\",\"date\":\"2021/01/27\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2021/01/hooks-replace-react-router.png\",\"tags\":[\"react\",\"webdev\",\"logrocket\"],\"_id\":\"content:externals:how-react-hooks-can-replace-react-router.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/how-react-hooks-can-replace-react-router.json\",\"_extension\":\"json\"},\"hash\":\"6hTsWlI1UJ\"}";
+
+export { howReactHooksCanReplaceReactRouter as default };
+//# sourceMappingURL=how-react-hooks-can-replace-react-router.mjs.map

@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const buildEcommerceSiteSveltekitShopifyApis = "{\"parsed\":{\"_path\":\"/externals/build-ecommerce-site-sveltekit-shopify-apis\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Build an ecommerce site with SvelteKit and the Shopify Storefront API\",\"description\":\"Learn how to build a site with SvelteKit to display all your Shopify products, then deploy the site to Netlify.\",\"url\":\"https://blog.logrocket.com/build-ecommerce-site-sveltekit-shopify-apis/\",\"category\":\"ecommerce\",\"date\":\"2021/08/30\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2021/08/build-ecommerce-site-sveltekit-shopify-api.png\",\"_id\":\"content:externals:build-ecommerce-site-sveltekit-shopify-apis.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/build-ecommerce-site-sveltekit-shopify-apis.json\",\"_extension\":\"json\"},\"hash\":\"P4hpbguZJm\"}";
+
+export { buildEcommerceSiteSveltekitShopifyApis as default };
+//# sourceMappingURL=build-ecommerce-site-sveltekit-shopify-apis.mjs.map

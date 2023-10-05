@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const howToAccessBetaFeaturesOnNetlify = "{\"parsed\":{\"_path\":\"/externals/how-to-access-beta-features-on-netlify\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"How to access beta features on Netlify\",\"description\":\"Very often, companies need a structured way to roll out experimental and beta features to users. At Netlify, this is done via Netlify Labs.\",\"url\":\"https://www.netlify.com/blog/how-to-access-beta-features-on-netlify\",\"category\":\"productivity\",\"date\":\"2022/02/03\",\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1696276743/AI_Generated_Image_24_ivszks.jpg\",\"tags\":[\"netlify\",\"productivity\",\"webdev\"],\"_id\":\"content:externals:how-to-access-beta-features-on-netlify.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/how-to-access-beta-features-on-netlify.json\",\"_extension\":\"json\"},\"hash\":\"OyDoL6tUCY\"}";
+
+export { howToAccessBetaFeaturesOnNetlify as default };
+//# sourceMappingURL=how-to-access-beta-features-on-netlify.mjs.map

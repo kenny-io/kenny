@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const trackEverything = "{\"parsed\":{\"_path\":\"/talks/track-everything\",\"_dir\":\"talks\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"conference\":\"DevRelCon Earth 2020\",\"title\":\"Track Everything, measure everything, it will not be enough\",\"description\":\"Measuring the impact of our activities and communicating how it adds value to the company is the general challenge of every DevRel team.\",\"date\":\"2020-08-10\",\"country\":\"earth\",\"site\":\"https://developerrelations.com/event/devrelcon-earth-2020\",\"category\":[{\"id\":\"1\",\"name\":\"devrel\"},{\"id\":\"2\",\"name\":\"jamstack\"}],\"video\":\"https://youtu.be/fCi_AdrhquE\",\"slides\":\"\",\"status\":\"done\",\"ready\":true,\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg\",\"_id\":\"content:talks:track-everything.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"talks/track-everything.json\",\"_extension\":\"json\"},\"hash\":\"NBwI1pZhOx\"}";
+
+export { trackEverything as default };
+//# sourceMappingURL=track-everything.mjs.map

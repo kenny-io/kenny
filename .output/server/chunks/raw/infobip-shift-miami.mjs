@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const infobipShiftMiami = "{\"parsed\":{\"_path\":\"/talks/infobip-shift-miami\",\"_dir\":\"talks\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"conference\":\"Infobip Shift Miami\",\"title\":\"Writing Documentations That Don’t Suck!\",\"description\":\"Documentation is a critical part of software development, yet it is often overlooked or undervalued.\",\"date\":\"2023-05-23\",\"country\":\"Miami\",\"site\":\"https://shift.infobip.com/us/\",\"category\":[{\"id\":\"1\",\"name\":\"api\"},{\"id\":\"2\",\"name\":\"devrel\"}],\"video\":\"\",\"slides\":\"\",\"status\":\"done\",\"ready\":false,\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg\",\"_id\":\"content:talks:infobip-shift-miami.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"talks/infobip-shift-miami.json\",\"_extension\":\"json\"},\"hash\":\"kig4ygbGg5\"}";
+
+export { infobipShiftMiami as default };
+//# sourceMappingURL=infobip-shift-miami.mjs.map

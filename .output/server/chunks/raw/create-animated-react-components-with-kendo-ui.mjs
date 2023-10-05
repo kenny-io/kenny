@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const createAnimatedReactComponentsWithKendoUi = "{\"parsed\":{\"_path\":\"/externals/create-animated-react-components-with-kendo-ui\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"How to create animated React components with Kendo UI\",\"description\":\"Animations are a major part of modern-day web development components. They add an aesthetic and visual appeal to how web applications are presented to...\",\"url\":\"https://blog.logrocket.com/create-animated-react-components-with-kendo-ui-d16e65ddcf7b/\",\"category\":\"Styling\",\"date\":\"2019/03/28\",\"image\":\"https://storage.googleapis.com/blog-images-backup/1*ZPxO2UozsjtoGicXbSme_Q.jpeg\",\"tags\":[\"react\",\"logrocket\",\"animation\"],\"_id\":\"content:externals:create-animated-react-components-with-kendo-ui.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/create-animated-react-components-with-kendo-ui.json\",\"_extension\":\"json\"},\"hash\":\"JjOBquJizP\"}";
+
+export { createAnimatedReactComponentsWithKendoUi as default };
+//# sourceMappingURL=create-animated-react-components-with-kendo-ui.mjs.map

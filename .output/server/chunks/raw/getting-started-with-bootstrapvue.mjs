@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const gettingStartedWithBootstrapvue = "{\"parsed\":{\"_path\":\"/externals/getting-started-with-bootstrapvue\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Getting started with BootstrapVue\",\"description\":\"Vue.js is a popular JavaScript library used for developing prototypes in a short time. This includes user interfaces, frontend applications, static webpages, and native...\",\"url\":\"https://blog.logrocket.com/getting-started-with-bootstrapvue-2d8bf907ef11/\",\"category\":\"Styling\",\"date\":\"2019/04/29\",\"image\":\"https://blog.logrocket.com/wp-content/uploads/2022/09/getting-started-bootstrapvue-copy.png\",\"tags\":[\"bootstrap\",\"bootstrapvue\",\"vue\"],\"_id\":\"content:externals:getting-started-with-bootstrapvue.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/getting-started-with-bootstrapvue.json\",\"_extension\":\"json\"},\"hash\":\"TVDOcXeMFc\"}";
+
+export { gettingStartedWithBootstrapvue as default };
+//# sourceMappingURL=getting-started-with-bootstrapvue.mjs.map

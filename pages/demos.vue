@@ -1,94 +1,104 @@
+<script setup lang="ts">
+import { onMounted, ref } from 'vue';
+import demosData from '../content/demos.json'; // Import the JSON file
+import useDateFormatter from '../composables/useDate';
+interface Demo {
+  title: string;
+  description: string;
+  date: string;
+  hasSite: boolean;
+  hasPost?: boolean;
+  site: string;
+  github: string;
+  post?: string;
+}
+const { formatDate } = useDateFormatter();
+const demos = ref<Demo[]>([]);
+// Fetch demos data from the imported JSON file
+function fetchDemos() {
+  demos.value = demosData.demos;
+}
+onMounted(() => {
+  fetchDemos();
+});
+</script>
 <template>
-  <div class="">
-    <section class="text-primary-content">
-      <div
-        class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
-      >
-        <div class="text-center lg:w-2/3 w-full">
-          <h1 class="mb-5 text-5xl font-bold text-accent">
-            Demos
-          </h1>
-          <p class="leading-relaxed opacity-70">
-            When I write content or make video tutorials, I often do it along
-            with a project to better demonstrate what I'm teaching. I strongly
-            believe that a good way to inform is not just to tell but also to
-            show. So for every concept I teach, I build a project to demonstrate
-            said concept. I've listed some of these demos here for anyone keen
-            to look.
-          </p>
+  <main>
+    <section class="pt-20">
+      <TheWrapper>
+        <div
+          class="flex flex-col items-center md:flex-row text-[#ABABAB] px-16"
+        >
+          <div class="md:w-3/4 w-full md:mt-0 mt-6 order-2 md:order-none">
+            <h1
+              class="md:text-left text-center text-4xl md:text-6xl font-semibold tracking-tighter text-[#fff]"
+            >
+              Demos
+            </h1>
+            <p class="text-lg md:text-xl mt-6 text-center md:text-left">
+              I create Proof of Concepts (POCs) for various purposes, with the
+              primary intent being to validate an idea or teach a concept I find
+              interesting. <br /><br />
+              While some I've purchased a domain to host some of them, but
+              definitely not all so you may come across broken links along the
+              way 😃
+            </p>
+          </div>
+          <div class="w-1/2 md:w-2/4">
+            <img
+              class="w-[406px]"
+              src="../assets/images/demos-hero-image.png"
+            />
+          </div>
         </div>
-      </div>
+      </TheWrapper>
     </section>
-    <section class="text-primary-content overflow-hidden">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="-my-8 divide-y-2 divide-gray-100">
+
+    <section class="mt-12 mb-40">
+      <TheWrapper>
+        <!-- <div>
           <div
-            v-for="demo in demos.demos"
+            v-for="demo in demos"
             :key="demo.title"
-            class="py-8 flex flex-wrap md:flex-nowrap"
+            class="border-b py-10 border-[#434343]"
           >
-            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <span
-                v-if="demo.hasSite"
-                class="font-normal title-font opacity-70"
-                >SITE</span
+            <div class="flex items-center gap-7">
+              <h2
+                class="hover:text-white text-[#898989] text-6xl tracking-[-4.16px]"
               >
-              <span v-else class="font-normal title-font opacity-70 "
-                >NORMAL</span
-              >
-              <span class="mt-1 opacity-70 text-sm">{{ demo.date }}</span>
-            </div>
-            <div class="md:flex-grow">
-              <h2 class="text-2xl font-medium title-font mb-2">
                 {{ demo.title }}
               </h2>
-              <p class="leading-relaxed opacity-70">
-                {{ demo.description }}
-              </p>
-              <div
-                role="list"
-                class="text-accent-focus inline-flex items-center space-x-4 mt-5"
+            </div>
+          </div>
+        </div> -->
+        <div>
+          <div
+            v-for="demo in demos"
+            :key="demo.title"
+            class="border-b cursor-pointer group py-10 border-[#434343] relative"
+          >
+            <div class="flex items-center gap-7">
+              <h2
+                class="group-hover:text-white transition duration-300 ease-in-out text-[#898989] text-6xl tracking-[-4.16px] w-5/6"
               >
-                <a :href="demo.github" role="listitem">
-                  Github
-                </a>
+                {{ demo.title }}
+              </h2>
+            </div>
+            <div class="transition-opacity duration-300">
+              <p class="mt-8 w-3/4 text-[#898989]">
+                {{ demo.description || 'Something' }}
+              </p>
 
-                <a v-if="demo.hasSite" role="listitem" :href="demo.site"
-                  >Live Demo
-                </a>
-                <a v-if="demo.hasPost" role="listitem" :href="demo.post"
-                  >Post
-                </a>
+              <div class="flex items-center gap-7 text-[#898989] mt-8">
+                <h2>{{ formatDate(demo.date) }}</h2>
+                <a :href="demo?.github">GitHub</a>
+                <a v-if="demo.hasSite" :href="demo?.site">Preview</a>
               </div>
             </div>
           </div>
         </div>
-      </div>
+        <TheButton class="mx-auto">Show All</TheButton>
+      </TheWrapper>
     </section>
-  </div>
+  </main>
 </template>
-<script>
-export default {
-  head: {
-    title: "Demos | Ekene Eze",
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content:
-          'Ekene Eze"s popular projects and demos on Github mostly hosted on Netlify'
-      }
-    ]
-  },
-  data() {
-    return {
-      demos: ""
-    };
-  },
-  async fetch() {
-    this.demos = await this.$content("demos")
-      .sortBy("date", "description")
-      .fetch();
-  }
-};
-</script>

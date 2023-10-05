@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const speedIncrementalBuildsGatsbySliceApi = "{\"parsed\":{\"_path\":\"/externals/speed-incremental-builds-gatsby-slice-api\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"How to speed up incremental builds with Gatsby’s Slice API\",\"description\":\"Using the Slice API in Gatsby projects can help enhance the speed of incremental builds, improving your site performance and productivity.\",\"url\":\"https://blog.logrocket.com/speed-incremental-builds-gatsby-slice-api\",\"category\":\"performance\",\"date\":\"2023/02/15\",\"tags\":[\"gatsby\",\"performance\",\"slice-api\"],\"image\":\"https://blog.logrocket.com/wp-content/uploads/2023/02/Speed-up-incremental-builds-Gatsby-Slice-API.png\",\"_id\":\"content:externals:speed-incremental-builds-gatsby-slice-api.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/speed-incremental-builds-gatsby-slice-api.json\",\"_extension\":\"json\"},\"hash\":\"OLVes8oQnr\"}";
+
+export { speedIncrementalBuildsGatsbySliceApi as default };
+//# sourceMappingURL=speed-incremental-builds-gatsby-slice-api.mjs.map

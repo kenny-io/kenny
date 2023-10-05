@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const deepDiveIntoTheVueCompositionApisWatchMethod = "{\"parsed\":{\"_path\":\"/externals/deep-dive-into-the-vue-composition-apis-watch-method\",\"_dir\":\"externals\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Deep dive into the Vue Composition API's watch() method\",\"description\":\"This post dives deep into how the Vue 3 watch API works when passed different types of data\",\"url\":\"https://www.netlify.com/blog/2021/01/29/deep-dive-into-the-vue-composition-apis-watch-method/\",\"category\":\"vue 3 watch API\",\"date\":\"2021/01/29\",\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1696278315/AI_Generated_Image_28_n3jmdo.jpg\",\"tags\":[\"vue\",\"webdev\",\"javascript\"],\"_id\":\"content:externals:deep-dive-into-the-vue-composition-apis-watch-method.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"externals/deep-dive-into-the-vue-composition-apis-watch-method.json\",\"_extension\":\"json\"},\"hash\":\"OAyr91jxtX\"}";
+
+export { deepDiveIntoTheVueCompositionApisWatchMethod as default };
+//# sourceMappingURL=deep-dive-into-the-vue-composition-apis-watch-method.mjs.map

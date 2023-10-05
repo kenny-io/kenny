@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const flutterwaveDevJam = "{\"parsed\":{\"_path\":\"/talks/flutterwave-dev-jam\",\"_dir\":\"talks\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"conference\":\"Flutterwave DevJam 2022\",\"title\":\"Leveraging community for product growth\",\"description\":\"When you build a community the right way, the immediate results are organic customer acquisition and retention & quality feedback.\",\"date\":\"2022-10-15\",\"country\":\"Lagos, Nigeria\",\"site\":\"\",\"category\":[{\"id\":\"1\",\"name\":\"community\"},{\"id\":\"2\",\"name\":\"devrel\"}],\"video\":\"\",\"slides\":\"\",\"status\":\"done\",\"ready\":false,\"image\":\"https://res.cloudinary.com/kennyy/image/upload/v1633878358/kenny-3_iomjbk.jpg\",\"_id\":\"content:talks:flutterwave-dev-jam.json\",\"_type\":\"json\",\"_source\":\"content\",\"_file\":\"talks/flutterwave-dev-jam.json\",\"_extension\":\"json\"},\"hash\":\"7ViKsCHErO\"}";
+
+export { flutterwaveDevJam as default };
+//# sourceMappingURL=flutterwave-dev-jam.mjs.map
